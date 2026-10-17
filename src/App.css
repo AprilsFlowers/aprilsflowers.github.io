@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   gap: 25px;
+  background-color: rgb(188, 228, 200);
 }
 
 .App-logo {
@@ -18,14 +19,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -41,12 +42,12 @@
   }
 }
 .box{
-  background-color: #d0f5ffc2;
-  width: 400px;
-  height: 500px;
+  background-color: #d0ffe9c2;
+  width: 1000px;
+  height: 1350px;
   padding: 10px;
-  border: 5px solid rgba(211, 221, 255, 0.712);
-  border-radius: 70px;
+  border: 0px solid rgba(211, 221, 255, 0.712);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   white-space: wrap;
@@ -54,29 +55,74 @@
   gap: 25px;
   overflow: hidden;
   margin-top: 30px;
+  margin-bottom: 0px;
   
   
 }
 
-.infobox{
+.round{
+  background-color: white;
+  width: 800px;
+  height:1500px;
+  padding: 10px;
+   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  white-space: wrap;
+  align-items: center;
+  gap: 25px;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.lit{
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+  font-weight:100px;
+  font-style: none;
+  
+}
+
+.about{
   font-weight: 600;
   font-size: 20px;
+  color: #317a3b;
 }
 
+.abouttext{
+  font-size: 20px;
+  font-weight: 100;
+
+}
+
+.thank{
+  color: rgb(112, 113, 114);
+  font-weight: 100;
+  font-size: 20;
+}
+
+.ves{
+  color: rgb(230, 116, 135);
+  
+}
+
+
+
 .button{
-  background-color: pink;
+  background-color: rgb(181, 245, 186);
   border:0px solid transparent;
   border-radius: 10px;
   padding: 10px 15px; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
-  color: rgb(177, 115, 125);
+  vertical-align: bottom;
   
 }
 
 .button:hover{
-  background-color: rgb(255, 169, 183);
+  background-color: rgb(118, 230, 155);
 }
 
 .image{
@@ -89,5 +135,5 @@
 
 .button a{
   text-decoration: none;
-  color: rgb(134, 53, 66);
+  color: rgb(31, 75, 53);
 }
