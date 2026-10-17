@@ -1,5 +1,6 @@
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import video from './Assets/april-video.mp4'
 
 function App() {
   return (
@@ -37,6 +38,18 @@ function App() {
               <br />
               Over time you'll most likely see this little page change and grow!
               <br />
+             
+             
+              
+              <video 
+              className="aprilvideo"
+              src={video}
+              autoPlay
+              preload="auto"
+              loop
+
+              />
+              
               <br />
               <strong>🩷 Favourite Sanrio Characters</strong>
               <br />

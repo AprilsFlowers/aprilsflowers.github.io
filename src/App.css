@@ -45,7 +45,7 @@
   background-color: #d0ffe9c2;
   /* width: 1000px; */
   /* width: 100%; */
-  width: min(1000px, 100%);
+  width: min(1000px, 90%);
   /* height: 1350px; */
   padding: 10px 0;
   border: 0px solid rgba(211, 221, 255, 0.712);
@@ -63,7 +63,7 @@
 .round {
   background-color: white;
   /* width: 800px; */
-  width: min(900px, 80%);
+  width: min(900px, 85%);
   /* height:1500px; */
   padding: 10px;
   border-radius: 30px;
@@ -71,11 +71,26 @@
   flex-direction: column;
   white-space: wrap;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
   overflow: hidden;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.aprilvideo{
+  width: 80%;
+
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  overflow:hidden;
+  object-fit: cover;
+  
+}
+
+
 
 .lit {
   color: rgb(34, 34, 34);
@@ -89,11 +104,14 @@
   font-weight: 600;
   font-size: 20px;
   color: #317a3b;
+
+  
 }
 
 .abouttext {
-  font-size: 20px;
+  font-size: var(--step-0);
   font-weight: 100;
+  
 }
 
 .thank {
@@ -132,4 +150,8 @@
 .button a {
   text-decoration: none;
   color: rgb(31, 75, 53);
+}
+
+:root {
+  --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
 }
