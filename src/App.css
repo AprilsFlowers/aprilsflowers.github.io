@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
@@ -41,11 +41,13 @@
     transform: rotate(360deg);
   }
 }
-.box{
+.box {
   background-color: #d0ffe9c2;
-  width: 1000px;
-  height: 1350px;
-  padding: 10px;
+  /* width: 1000px; */
+  /* width: 100%; */
+  width: min(1000px, 100%);
+  /* height: 1350px; */
+  padding: 10px 0;
   border: 0px solid rgba(211, 221, 255, 0.712);
   border-radius: 10px;
   display: flex;
@@ -55,17 +57,16 @@
   gap: 25px;
   overflow: hidden;
   margin-top: 30px;
-  margin-bottom: 0px;
-  
-  
+  margin-bottom: 30px;
 }
 
-.round{
+.round {
   background-color: white;
-  width: 800px;
-  height:1500px;
+  /* width: 800px; */
+  width: min(900px, 80%);
+  /* height:1500px; */
   padding: 10px;
-   border-radius: 30px;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   white-space: wrap;
@@ -73,67 +74,62 @@
   gap: 25px;
   overflow: hidden;
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
-.lit{
+.lit {
   color: rgb(34, 34, 34);
   font-size: 15px;
-  font-weight:100px;
+  font-weight: 100px;
   font-style: none;
-  
+  margin: -15px 0 0;
 }
 
-.about{
+.about {
   font-weight: 600;
   font-size: 20px;
   color: #317a3b;
 }
 
-.abouttext{
+.abouttext {
   font-size: 20px;
   font-weight: 100;
-
 }
 
-.thank{
+.thank {
   color: rgb(112, 113, 114);
   font-weight: 100;
   font-size: 20;
 }
 
-.ves{
+.ves {
   color: rgb(230, 116, 135);
-  
 }
 
-
-
-.button{
+.button {
   background-color: rgb(181, 245, 186);
-  border:0px solid transparent;
+  border: 0px solid transparent;
   border-radius: 10px;
-  padding: 10px 15px; 
+  padding: 10px 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   text-decoration: none;
   vertical-align: bottom;
-  
 }
 
-.button:hover{
+.button:hover {
   background-color: rgb(118, 230, 155);
 }
 
-.image{
+.image {
   background-image: url(./Assets/april-image.png);
   width: 300px;
   aspect-ratio: 1668/2000;
   background-size: cover;
-
+  margin-bottom: -10px;
 }
 
-.button a{
+.button a {
   text-decoration: none;
   color: rgb(31, 75, 53);
 }
