@@ -75,6 +75,7 @@
   overflow: hidden;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: var(--step-0);
 }
 
 .aprilvideo{
@@ -102,14 +103,11 @@
 
 .about {
   font-weight: 600;
-  font-size: 20px;
   color: #317a3b;
 
-  
 }
 
 .abouttext {
-  font-size: var(--step-0);
   font-weight: 100;
   
 }
