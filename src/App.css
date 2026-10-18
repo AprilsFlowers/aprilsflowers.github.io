@@ -42,10 +42,10 @@
   }
 }
 .box {
-  background-color: #d0ffe9c2;
+  background-color: #ffffffb0;
   /* width: 1000px; */
   /* width: 100%; */
-  width: min(1000px, 90%);
+  width: min(2000px, 90%);
   /* height: 1350px; */
   padding: 10px 0;
   border: 0px solid rgba(211, 221, 255, 0.712);
@@ -61,9 +61,9 @@
 }
 
 .round {
-  background-color: white;
+  background-color: rgb(252, 252, 252);
   /* width: 800px; */
-  width: min(900px, 85%);
+  width: min(1000px, 85%);
   /* height:1500px; */
   padding: 10px;
   border-radius: 30px;
@@ -93,6 +93,47 @@
 
 
 
+.showcase{
+  width: 80%;
+
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow:hidden;
+  object-fit: cover;
+  
+}
+
+hr {
+  border: none;
+  height: 1px;  
+  background: #ccc;
+}
+
+.live2d{
+  color: #3c97cc;
+  font-size: 25px;
+  font-weight: 600px;
+  
+}
+
+.video-container{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  
+}
+
+.vgen{
+  color: #318b25;
+}
+.youtube{
+  color:#3c97cc
+  
+}
+
 .lit {
   color: rgb(34, 34, 34);
   font-size: 15px;
@@ -103,7 +144,8 @@
 
 .about {
   font-weight: 600;
-  color: #317a3b;
+  font-size: 120%;
+  color: #509e5a;
 
 }
 
@@ -116,6 +158,7 @@
   color: rgb(112, 113, 114);
   font-weight: 100;
   font-size: 20;
+  margin-top: 30px;
 }
 
 .ves {
