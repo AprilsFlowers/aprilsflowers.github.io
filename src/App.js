@@ -32,6 +32,7 @@ function App() {
               I also really like blogging and ID'ing insects, specifically in
               the NSW area.
               <br />
+              <br />
               I'm particular fond of spiders and beetles, especially bright and
               shiny ones, I find them most beautiful.
               <br />
