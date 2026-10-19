@@ -98,7 +98,7 @@
 }
 
 .aprilvideo{
-  width: 50%;
+  max-width: 90%;
 
   /* padding-top: 30px; */
   /* padding-bottom: 30px; */
@@ -132,8 +132,9 @@ background-color: #fff3f8;
   text-align: left;
   overflow: auto;
   width: 1000px;
+  max-width: 90%;
   align-content: center;
-  margin: auto;
+  margin: 0 auto;
 
    /* Creates the solid purple line on the left */
   border-left: 6px solid #ffb3dd; 
@@ -223,6 +224,7 @@ margin: 0 auto;
   font-size: 130%;
   color: #509e5a;
   background-color: #3bcf2a00;
+  max-width: 100%;
 
 }
 
@@ -230,13 +232,15 @@ margin: 0 auto;
   font-weight: 100;
   margin-bottom: 0px;
   background-color: #b3ffc000;
+  overflow: hidden;
+
 }
 
 .abouttext {
   font-weight: 100;
   margin-bottom: 0px;
   background-color: #ffb3dd00;
-  
+  max-width: 100%;
 }
 
 .hello{
