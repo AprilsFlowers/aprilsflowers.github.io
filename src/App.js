@@ -5,6 +5,10 @@ import snowy from "./Assets/snowy.mp4";
 import jitters from "./Assets/jitters.mp4";
 import aprilshowcase from "./Assets/aprilshowcase.mp4";
 import aprilwave from "./Assets/aprilwave.png";
+import blossom from "./Assets/blossom.mp4";
+import mystic from "./Assets/mystic.mp4";
+import yui from "./Assets/yui.mp4";
+
 
 function App() {
   return (
@@ -56,6 +60,9 @@ function App() {
             />
             <br />
             <div className="favsbar"><strong>Favourites!</strong></div>
+            
+            
+            </div>
             <div className="favourites">
               
               <strong>Favourite Sanrio Characters</strong>
@@ -89,6 +96,7 @@ function App() {
               Stomachbook, Kikuo, Nashimoto-P
               <br />
             </div>
+            <div className="abouttext">
             <br />
             <br />
             <hr />
@@ -135,6 +143,33 @@ function App() {
               <video
                 className="showcase"
                 src={aprilshowcase}
+                autoPlay
+                preload="auto"
+                loop
+                muted
+              />
+
+              <video
+                className="showcase"
+                src={yui}
+                autoPlay
+                preload="auto"
+                loop
+                muted
+              />
+
+              <video
+                className="showcase"
+                src={blossom}
+                autoPlay
+                preload="auto"
+                loop
+                muted
+              />
+
+              <video
+                className="showcase"
+                src={mystic}
                 autoPlay
                 preload="auto"
                 loop
