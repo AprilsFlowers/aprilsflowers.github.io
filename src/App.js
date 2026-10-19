@@ -15,8 +15,7 @@ function App() {
         <div className="round">
           <br />
 
-          <div className="about">A little About Me!</div>
-          <div className="hello">Hi, I'm April!</div>
+          <div className="greeting">Hi, I'm April!</div>
           <div className="pronouns">
             She / her / thingamajig / whatchamacallit
           </div>
@@ -178,8 +177,7 @@ function App() {
             model I create.
             <br />
             <br />
-            You can view commission information at
-            <br />
+            Commission Info ⇢
             <div className="vgen">
               <a href="https://vgen.co/Shinyprowl" class="vgen">
                 https://vgen.co/Shinyprowl
@@ -223,6 +221,9 @@ function App() {
           <br />
           <div className="image"></div>
         </div>
+      </div>
+      <div className="footer">
+        <footer></footer>
       </div>
     </Router>
   );

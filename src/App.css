@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  background-color: rgb(188, 228, 200);
+  background-color: rgb(245, 248, 246);
 }
 
 .App-logo {
@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #ffffff;
+  background-color: #fa8282;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,14 +42,14 @@
   }
 }
 .box {
-  background-color: #ffffffb0;
+  background-color: #ff565600;
   /* width: 1000px; */
   /* width: 100%; */
   width: min(2000px, 90%);
   /* height: 1350px; */
   padding: 10px 0;
-  border: 0px solid rgba(211, 221, 255, 0.712);
-  border-radius: 10px;
+  border: 0px solid rgba(211, 221, 255, 0);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   white-space: wrap;
@@ -66,7 +66,7 @@
   width: min(2000px, 85%);
   /* height:1500px; */
   padding: 10px;
-  border-radius: 30px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   white-space: wrap;
@@ -246,7 +246,7 @@ margin: 0 auto;
 
 
 
-.hello{
+.greeting{
   font-size: 25px;
   font-weight: 100;
   padding: 0;
