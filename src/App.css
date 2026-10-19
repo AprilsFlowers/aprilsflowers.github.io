@@ -119,13 +119,12 @@
 
 }
 .aprilwave {
-  background-image: url(./Assets/aprilwave.png);
+  background-image: url(./Assets/waveicon.webp);
   width: 250px;
   height: 250px;
-  aspect-ratio: 1668/2000;
   border-radius: 100%;
   background-size: cover;
-  background-position: -15px;
+
   
 }
 
@@ -281,7 +280,7 @@ margin: 0 auto;
 }
 
 .image {
-  background-image: url(./Assets/april-image.png);
+  background-image: url(./Assets/waa.webp);
   width: 300px;
   aspect-ratio: 1668/2000;
   background-size: cover;

@@ -4,11 +4,9 @@ import video from "./Assets/april-video.mp4";
 import snowy from "./Assets/snowy.mp4";
 import jitters from "./Assets/jitters.mp4";
 import aprilshowcase from "./Assets/aprilshowcase.mp4";
-import aprilwave from "./Assets/aprilwave.png";
 import blossom from "./Assets/blossom.mp4";
 import mystic from "./Assets/mystic.mp4";
 import yui from "./Assets/yui.mp4";
-
 
 function App() {
   return (
@@ -27,29 +25,28 @@ function App() {
 
           <div className="abouttext">
             <div className="bio">
-            I'm a digital artist for around 10+ years!
-            <br />
-            I like to create kemono furry artworks, as well as draw and rig
-            Live2D Vtuber models!
-            <br />
-            <br />
-            I have a strong interest in collecting cute trinkets and plushies of
-            my favourite characters.
-            <br />
-            I have a huge collection of Cinnamoroll, Kirby, and Sylveon taking
-            over my room.
-            <br />
-            <br />
-            I also really like blogging and ID'ing insects, specifically in the
-            NSW area.
-            <br />
-            I'm particular fond of spiders and beetles, especially bright and
-            shiny ones, I find them most beautiful.
-            <br />
-            <br />
-            I decided to start this project because I wanted a place where I can
-            have all my information in one place, as well as share some things
-            about me!
+              I'm a digital artist for around 10+ years!
+              <br />
+              I like to create kemono furry artworks, as well as draw and rig
+              Live2D Vtuber models!
+              <br />
+              <br />
+              I have a strong interest in collecting cute trinkets and plushies
+              of my favourite characters.
+              <br />
+              I have a huge collection of Cinnamoroll, Kirby, and Sylveon taking
+              over my room.
+              <br />
+              <br />
+              I also really like blogging and ID'ing insects, specifically in
+              the NSW area.
+              <br />
+              I'm particular fond of spiders and beetles, especially bright and
+              shiny ones, I find them most beautiful.
+              <br />
+              <br />I decided to start this project because I wanted a place
+              where I can have all my information in one place, as well as share
+              some things about me!
             </div>
             <video
               className="aprilvideo"
@@ -59,44 +56,43 @@ function App() {
               loop
             />
             <br />
-            <div className="favsbar"><strong>Favourites!</strong></div>
-            
-            
+            <div className="favsbar">
+              <strong>Favourites!</strong>
             </div>
-            <div className="favourites">
-              
-              <strong>Favourite Sanrio Characters</strong>
-              <br />
-              Wishmemell, Cinnamoroll, Hanamaruobake, Usahana, Sugarbunnies and
-              littleforestfellow!
-              <br />
-              <br />
-              <strong>Favourite Pokemon</strong>
-              <br />
-              Sylveon, Buneary, Minccino, Alcremie, Indeedee, Gastrodon, Goodra,
-              Audino, Clefairy, Cleffa, Meowscarada, Floragato
-              <br />
-              <br />
-              <strong>Favourite Insects</strong>
-              <br />
-              Flower crab spider, Orchid mantis, Christmas beetle, Click
-              beetles, Cicadas
-              <br />
-              <br />
-              <strong>Favourite Genres</strong>
-              <br />
-              Metal, Numetal, Industrial Metal, Punk, Breakcore, Gabba,
-              Vocaloid, Videogames OSTs
-              <br />
-              <br />
-              <strong>Favourite Artists</strong>
-              <br />
-              Seether, Three Days Grace, The Offspring, Maneskin, Limp Bizkit,
-              Nirvana, Linkinpark, Rammstein, System Of A Down, The Prodigy,
-              Stomachbook, Kikuo, Nashimoto-P
-              <br />
-            </div>
-            <div className="abouttext">
+          </div>
+          <div className="favourites">
+            <strong>Favourite Sanrio Characters</strong>
+            <br />
+            Wishmemell, Cinnamoroll, Hanamaruobake, Usahana, Sugarbunnies and
+            littleforestfellow!
+            <br />
+            <br />
+            <strong>Favourite Pokemon</strong>
+            <br />
+            Sylveon, Buneary, Minccino, Alcremie, Indeedee, Gastrodon, Goodra,
+            Audino, Clefairy, Cleffa, Meowscarada, Floragato
+            <br />
+            <br />
+            <strong>Favourite Insects</strong>
+            <br />
+            Flower crab spider, Orchid mantis, Christmas beetle, Click beetles,
+            Cicadas
+            <br />
+            <br />
+            <strong>Favourite Genres</strong>
+            <br />
+            Metal, Numetal, Industrial Metal, Punk, Breakcore, Gabba, Vocaloid,
+            Videogames OSTs
+            <br />
+            <br />
+            <strong>Favourite Artists</strong>
+            <br />
+            Seether, Three Days Grace, The Offspring, Maneskin, Limp Bizkit,
+            Nirvana, Linkinpark, Rammstein, System Of A Down, The Prodigy,
+            Stomachbook, Kikuo, Nashimoto-P
+            <br />
+          </div>
+          <div className="abouttext">
             <br />
             <br />
             <hr />
@@ -176,8 +172,8 @@ function App() {
                 muted
               />
             </div>
-            My models show a variety of features such as toggle-able emotes, bouncy 3D physics, and
-            even hand-tracking!
+            My models show a variety of features such as toggle-able emotes,
+            bouncy 3D physics, and even hand-tracking!
             <br />I try to learn new features and techniques with every new
             model I create.
             <br />
