@@ -78,11 +78,20 @@
   font-size: var(--step-0);
 }
 
+.greeting{
+  font-size: 25px;
+  font-weight: 100;
+  padding: 0;
+  margin: -10px 0 0;
+  background-color: #ff644900;
+}
+
 .pronouns{
   font-size: 20px;
   font-weight: 50;
   margin-top: -15px;
   color: #495248;
+  background-color: #ff9d4c00;
 
 }
 
@@ -92,41 +101,55 @@
   font-weight: 100;
   font-style: none;
   margin: -10px 0 0;
+  background-color: #ffee5700;
 }
 
-.about {
-  font-weight: 600;
-  font-size: 130%;
-  color: #509e5a;
-  background-color: #3bcf2a00;
-  max-width: 100%;
-
-}
-
-.bio{
-  font-weight: 100;
-  margin-bottom: 0px;
-  background-color: #b3ffc000;
-  overflow: hidden;
-
-}
-
-.abouttext {
-  font-weight: 100;
-  margin-bottom: 0px;
-  background-color: #ffb3dd00;
-  max-width: 100%;
-
-}
 .aprilwave {
   background-image: url(./Assets/waveicon.webp);
   width: 250px;
   height: 250px;
   border-radius: 100%;
   background-size: cover;
-
-  
 }
+
+.aboutbar{
+    color: #ffffff;
+  font-size: 30px;
+  font-weight: 600px;
+  background-color: #93b899;
+  border-radius: 90px;
+  width: 250px;
+  height: auto;
+  text-align: center;
+margin: 0 auto;
+margin-bottom: 5px;
+margin-top: 30px;
+margin-left: ;
+
+}
+
+
+
+.bio{
+  font-weight: 100;
+  margin-bottom: 0px;
+  background-color: #b3ffc000;
+  overflow: hidden;
+  border-style: dotted;
+  border-width: 3px;
+border-color: #a2ada100;
+border-radius: 10px;
+padding: 10px;
+}
+
+.abouttext {
+  font-weight: 100;
+  margin-bottom: 0px;
+  background-color: #f0ff6c00;
+  max-width: 100%;
+
+}
+
 
 .aprilvideo{
   max-width: 90%;
@@ -144,11 +167,11 @@
 
 .favsbar{
     color: #ffffff;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600px;
   background-color: #ffb3dd;
   border-radius: 90px;
-  width: 200px;
+  width: 250px;
   height: auto;
   text-align: center;
 margin: 0 auto;
@@ -166,13 +189,9 @@ background-color: #fff3f8;
   max-width: 90%;
 font-weight: 100;
 
-
-
-
-   /* Creates the solid purple line on the left */
   border-left: 6px solid #ffb3dd; 
   
-  /* Creates space between the purple line and your text */
+
   padding-left: 20px;  
   padding-bottom: 10px;
   padding-top: 10px;
@@ -183,26 +202,43 @@ font-weight: 100;
 
 }
 
-
-
-
 hr {
   border: none;
   height: 1px;  
-  background: #ccc;
+  background: #cccccc98;
+  max-width: 700px;
 }
 
-.live2d{
+
+
+.live2dbar{
   color: #ffffff;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600px;
   background-color: #58d1f7;
   border-radius: 90px;
-  width: 200px;
+  width: 250px;
   height: auto;
   text-align: center;
 margin: 0 auto;
   
+}
+
+.live2dheader{
+  font-size: 25px;
+  color: #6b6b6b;
+  padding-bottom: 5px;
+  text-decoration: none
+  
+
+}
+
+.live2dcubism a {
+  color: #ff7d41 !important;
+  
+}
+.live2dcubism a :visited {
+  color: #ff7d41 !important;
 }
 
 .video-container{
@@ -214,9 +250,8 @@ margin: 0 auto;
   overflow-x: auto;
   overflow-y: hidden;
   gap: 10px;
-  padding: 0px;
   background-color: #318b2500;
-
+padding-bottom: 5px;
 
 }
 .showcase{
@@ -229,7 +264,7 @@ margin: 0 auto;
   /* padding-bottom: 30px; */
   margin-top: 20px;
   margin-bottom: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow:auto;
   object-fit: cover;
   
@@ -246,12 +281,7 @@ margin: 0 auto;
 
 
 
-.greeting{
-  font-size: 25px;
-  font-weight: 100;
-  padding: 0;
-  margin: -10px 0 0;
-}
+
 
 .thank {
   color: rgb(112, 113, 114);
@@ -291,6 +321,18 @@ margin: 0 auto;
   text-decoration: none;
   color: rgb(31, 75, 53);
 }
+
+
+footer{
+  background-color: #ececec;
+  padding: 5px;
+  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+  color: #0000004d;
+}
+
 
 :root {
   --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);

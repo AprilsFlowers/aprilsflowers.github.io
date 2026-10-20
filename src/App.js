@@ -22,6 +22,8 @@ function App() {
           <div className="lit">25 | 🇦🇺 | ♀ </div>
           <div className="aprilwave"></div>
 
+          <div className="aboutbar">About Me!</div>
+
           <div className="abouttext">
             <div className="bio">
               I'm a digital artist for around 10+ years!
@@ -47,6 +49,8 @@ function App() {
               where I can have all my information in one place, as well as share
               some things about me!
             </div>
+            <br />
+
             <video
               className="aprilvideo"
               src={video}
@@ -55,6 +59,7 @@ function App() {
               loop
             />
             <br />
+
             <div className="favsbar">
               <strong>Favourites!</strong>
             </div>
@@ -96,25 +101,54 @@ function App() {
             <br />
             <hr />
             <br />
-            <div className="live2d">
+            <div className="live2dbar">
               <strong>Live2D</strong>
             </div>
             <br />
+            <div className="live2dheader">
+              <strong>What is Live2D?</strong>
+            </div>
             Live2D models are one of the most popular ways that Vtubers show
             themselves online!
             <br />
             They can be drawn in many applications, but the magic (rigging)
-            happens most commonly on a program called{" "}
-            <strong>Live2D Cubism</strong>.
+            happens most commonly on a program called
             <br />
-            <br />I first begun my Live2D journey around 2021.
+            <div className="live2dcubism">
+              <a href="https://www.live2d.com/en/" className="live2d-link">
+                <strong>Live2D Cubism</strong>
+              </a>
+            </div>
+            <br />
+            This program allows you to manipulate individual layers of your
+            artworks, letting you create the illusion of 3D movement.
+            <br />
+            Pair that technology with a face-tracking app like Vtube Studio and
+            you now have a Vtuber!
+            <br />
+            <br />
+            <br />
+            <div className="live2dheader">
+              <strong>My Journey</strong>
+            </div>
+            I first begun my Live2D journey around 2021.
             <br />
             I joined in on my friends making PNGtubers and I thought it was the
             coolest thing ever!
             <br />
-            <br />
             I decided I wanted even more control, thus my first ever Live2D
             project was born.
+            <br />
+            <br />
+            I love Live2D because it's amazing being able to see my art come to
+            life and even being able to control it! I found that idea so cool.
+            <br />
+            Being able to bring other people's characters to life is very fun
+            also.
+            <br />
+            Usually someone is either an artist or rigger. It's not common to
+            see someone be able to do both, so having both skills is special to
+            me!
             <br />
             <br />
             Here's a small look at some of the models I've created!
@@ -195,10 +229,11 @@ function App() {
             </div>
             <br />
             <br />
-            <hr />
           </div>
 
+          <hr />
           <br />
+
           <div className="thank">
             This is my first ever website!
             <br /> Thank you{" "}
@@ -222,9 +257,10 @@ function App() {
           <div className="image"></div>
         </div>
       </div>
-      <div className="footer">
-        <footer></footer>
-      </div>
+
+      <footer>
+        <p>© 2026 April</p>
+      </footer>
     </Router>
   );
 }
