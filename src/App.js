@@ -19,6 +19,7 @@ function App() {
           <div className="pronouns">
             She / her / thingamajig / whatchamacallit
           </div>
+
           <div className="lit">25 | 🇦🇺 | ♀ </div>
           <div className="aprilwave"></div>
           <div className="quotes-wrapper" style={{ "--total-quotes": 5 }}>
@@ -257,10 +258,8 @@ function App() {
             </div>
             <br />
             <br />
+            <hr />
           </div>
-
-          <hr />
-          <br />
 
           <div className="thank">
             This is my first ever website!

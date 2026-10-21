@@ -372,7 +372,20 @@ padding-bottom: 5px;
   
 }
 
+.linkbox{
+  color: #446448;
+  font-size: 30px;
+  font-weight: 600px;
+  background-color: #80ac8bc0;
+  border-radius: 15px;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
 
+
+}
 
 
 
@@ -380,7 +393,7 @@ padding-bottom: 5px;
   color: rgb(112, 113, 114);
   font-weight: 100;
   font-size: 20;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .ves {
