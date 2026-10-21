@@ -45,6 +45,7 @@
 ul {
   list-style-type: none;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0;
   overflow: hidden;
@@ -52,6 +53,7 @@ ul {
   padding: 0;
   font-size: 20px;
   border-radius: 90px;
+  height: 50px;
 }
 
 ul li {
