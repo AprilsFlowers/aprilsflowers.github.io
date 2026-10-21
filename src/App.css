@@ -112,6 +112,90 @@
   background-size: cover;
 }
 
+
+/* Container handles placement and hides text sliding out to the sides */
+.quotes-wrapper {
+  position: relative;
+  height: 100px;      /* Adjust this height to match your font size */
+  width: 600px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #27a4ca00;
+}
+
+/* Base styles for every single quote box */
+
+.quotesbox {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  
+  background-color: #7ac08f;
+  border-radius: 20px;
+  border-top-left-radius: 2px;
+  padding: 10px;
+  color: white;
+  width: max-content;
+  max-width: 90%;
+  box-sizing: border-box;
+
+  /* 
+    Changing back to infinite lets the loop reset clean each cycle 
+    so previous quotes completely disappear.
+  */
+  animation: rotateQuotes calc(10s * var(--total-quotes, 5)) infinite ease-in-out;
+  animation-delay: var(--delay, 0s);
+}
+
+@keyframes rotateQuotes {
+  0% {
+    left: 120%;
+    transform: translateX(0%);
+    opacity: 0;
+  }
+  
+  /* ─── NEW FADE-IN TIMING ─── */
+  /* Keep it completely invisible until it has crossed inside the container border */
+  1.5% {
+    opacity: 0;
+  }
+  
+  /* Slide In smoothly to the center and finish becoming solid */
+  3% {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+  /* Hold perfectly still in the dead center for reading */
+  17% {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+  /* As it begins sliding left, drop the opacity to 0 very quickly */
+  18.5% {
+    opacity: 0;
+  }
+  /* Arrive completely hidden off the left edge at the normal 20% mark */
+  20% {
+    left: -20%;
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  /* Stay completely hidden while other quotes display */
+  100% {
+    left: -20%;
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
 .aboutbar{
     color: #ffffff;
   font-size: 30px;
@@ -123,7 +207,7 @@
   text-align: center;
 margin: 0 auto;
 margin-bottom: 5px;
-margin-top: 30px;
+margin-top: 5px;
 margin-left: ;
 
 }

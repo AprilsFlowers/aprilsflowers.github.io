@@ -21,6 +21,34 @@ function App() {
           </div>
           <div className="lit">25 | 🇦🇺 | ♀ </div>
           <div className="aprilwave"></div>
+          <div className="quotes-wrapper" style={{ "--total-quotes": 5 }}>
+            <div className="quotesbox" style={{ "--delay": "calc(10s * 0)" }}>
+              "nya"
+            </div>
+            <div className="quotesbox" style={{ "--delay": "calc(10s * 1)" }}>
+              "meow!"
+            </div>
+            <div className="quotesbox" style={{ "--delay": "calc(10s * 2)" }}>
+              "im a cat"
+            </div>
+            <div className="quotesbox" style={{ "--delay": "calc(10s * 3)" }}>
+              "hunfry jacks <br /> grilled chien"
+            </div>
+            <div className="quotesbox" style={{ "--delay": "calc(10s * 4)" }}>
+              "Smells bad ❌ <br />
+              Stinks good ✅" <br />
+              <span
+                style={{
+                  color: "#ff4d4d",
+                  fontSize: "0.85em",
+                  display: "block",
+                  marginTop: "5px",
+                }}
+              >
+                Failed to send message. Hold for options.
+              </span>
+            </div>
+          </div>
 
           <div className="aboutbar">About Me!</div>
 
