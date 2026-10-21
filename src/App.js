@@ -18,7 +18,7 @@ function App() {
             <a href="https://www.youtube.com/@shinyprowl/videos">Youtube</a>
           </li>
           <li>
-            <a href="https://www.deviantart.com/users/shinyprowl">DeviantArt</a>
+            <a href="https://www.deviantart.com/shinyprowl">DeviantArt</a>
           </li>
           <li>
             <a href="https://bsky.app/profile/shinyprowl.bsky.social">Bluesky</a>
