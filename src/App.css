@@ -125,12 +125,15 @@
 }
 
 /* Base styles for every single quote box */
-
 .quotesbox {
   position: absolute;
   top: 0;
-  left: 50%;
   
+  /* 1. CRUCIAL DEFAULT VALUES: Tells the browser where the elements live by default before animating */
+  left: 120%;        
+  transform: translateX(0%);
+  opacity: 0;        
+
   background-color: #7ac08f;
   border-radius: 20px;
   border-top-left-radius: 2px;
@@ -141,10 +144,11 @@
   box-sizing: border-box;
 
   /* 
-    Changing back to infinite lets the loop reset clean each cycle 
-    so previous quotes completely disappear.
+    2. ADDED 'both' to the animation shorthand. 
+    This acts as 'backwards' + 'forwards' fill mode, forcing the 0% keyframe properties 
+    to be applied to the quote boxes immediately on page load while they wait for their delay timer.
   */
-  animation: rotateQuotes calc(10s * var(--total-quotes, 5)) infinite ease-in-out;
+  animation: rotateQuotes calc(10s * var(--total-quotes, 5)) both infinite ease-in-out;
   animation-delay: var(--delay, 0s);
 }
 
@@ -167,22 +171,26 @@
     transform: translateX(-50%);
     opacity: 1;
   }
+  
   /* Hold perfectly still in the dead center for reading */
   17% {
     left: 50%;
     transform: translateX(-50%);
     opacity: 1;
   }
+  
   /* As it begins sliding left, drop the opacity to 0 very quickly */
   18.5% {
     opacity: 0;
   }
+  
   /* Arrive completely hidden off the left edge at the normal 20% mark */
   20% {
     left: -20%;
     transform: translateX(-100%);
     opacity: 0;
   }
+  
   /* Stay completely hidden while other quotes display */
   100% {
     left: -20%;
@@ -190,6 +198,7 @@
     opacity: 0;
   }
 }
+
 
 
 
