@@ -12,6 +12,23 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/@shinyprowl/videos">Youtube</a>
+          </li>
+          <li>
+            <a href="https://www.deviantart.com/users/shinyprowl">DeviantArt</a>
+          </li>
+          <li>
+            <a href="https://bsky.app/profile/shinyprowl.bsky.social">Bluesky</a>
+          </li>
+          <li>
+            <a href="https://x.com/shinyprowl">Twitter</a>
+          </li>
+          <li>
+            <a href="https://vgen.co/Shinyprowl">Commissions</a>
+          </li>
+        </ul>
         <div className="round">
           <br />
 
