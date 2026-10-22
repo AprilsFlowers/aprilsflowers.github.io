@@ -58,6 +58,7 @@ ul {
 
 ul li {
   justify-content: center;
+  
 }
 
 ul li a {
@@ -244,7 +245,7 @@ ul li a:hover {
     color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
-  background-color: #93b899;
+  background-color: #80c28b;
   border-radius: 90px;
   width: 250px;
   height: auto;
@@ -253,6 +254,14 @@ margin: 0 auto;
 margin-bottom: 5px;
 margin-top: 5px;
 
+transition: transform 0.2s ease-in-out;
+
+}
+.aboutbar:hover {
+  transform: scale(1.1);
+  transform: rotateZ(3deg),;
+  background-color: #71ce82;
+  
 }
 
 
@@ -283,6 +292,7 @@ padding: 10px;
   align-self: center;
   flex-direction: column;
   overflow: hidden;
+  
 
   background-color: #ffffff;
   border: #eec485;
@@ -303,6 +313,7 @@ max-height: 500px;
     max-height: 400px;    /* Limits the height so it doesn't crop off-screen */
     overflow-y: auto;     /* Adds the vertical scrollbar when content overflows */
     padding-bottom: 10px; /* Gives a little breathing room at the bottom */
+    overflow-x: hidden;
   }
 }
   

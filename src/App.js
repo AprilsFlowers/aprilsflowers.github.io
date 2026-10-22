@@ -108,6 +108,7 @@ function App() {
             />
             <br />
 
+            
             <div className="favsbar">
               <strong>Favourites!</strong>
             </div>
@@ -146,39 +147,51 @@ function App() {
           </div>
           <div className="abouttext">
             <br />
-            <br />
+            <br /><div className="traitstext">
+                <strong>Traits!</strong>
+              </div>
             <div className="traitsbox">
               <br />
-              <div className="traitstext"><strong>Traits!</strong></div>
+              
               <br />
 
               <div className="traitbubblesrow">
                 <div className="traitsbubbles">🍭 Playful</div>
+                <div className="traitsbubbles">🖍️ Childish</div>
                 <div className="traitsbubbles">🦜 Chatty</div>
                 <div className="traitsbubbles">🧹 Tidy</div>
                 <div className="traitsbubbles">🎨 Artistic</div>
                 <div className="traitsbubbles">🎭 Sensitive</div>
-                <div className="traitsbubbles">🖍️ Childish</div>
+                <div className="traitsbubbles">🐚 Introvert</div>
+                <div className="traitsbubbles">⏳ Patient</div>
                 <div className="traitsbubbles">🧸 Cuddly</div>
                 <div className="traitsbubbles">🫂 Caring</div>
                 <div className="traitsbubbles">🪲 Bug-Lover</div>
                 <div className="traitsbubbles">🌷 Nature-loving</div>
                 <div className="traitsbubbles">🍃 Carefree</div>
-                <div className="traitsbubbles">💅 Sassy</div>
-                <div className="traitsbubbles">🍌 Clumsy</div>
-                <div className="traitsbubbles">⏳ Patient</div>
                 <div className="traitsbubbles">🔎 Inquisitive</div>
+                <div className="traitsbubbles">👁️‍🗨️ Nuanced</div>
                 <div className="traitsbubbles">🐈 Cat-person</div>
-                <div className="traitsbubbles">🦥 Lazy</div>
-                <div className="traitsbubbles">🐌 Slow</div>
-                <div className="traitsbubbles">🔥 Rancorous</div>
                 <div className="traitsbubbles">📸 Snapshotter</div>
-                <div className="traitsbubbles">🍔 Gourmand</div>
-                <div className="traitsbubbles">☕ Coffee-lover</div>
-                <div className="traitsbubbles">🌀 Easily-Confused</div>
+                <div className="traitsbubbles">🍫 Chocaholic</div>
+                <div className="traitsbubbles">☕ Coffee-Lover</div>
                 <div className="traitsbubbles">
                   🍍 Pineapple goes on everything!
                 </div>
+                <div className="traitsbubbles">💅 Sassy</div>
+                <div className="traitsbubbles">🔥 Rancorous</div>
+                <div className="traitsbubbles">🧱 Tactless</div>
+                <div className="traitsbubbles">🐌 Slow</div>
+                <div className="traitsbubbles">🍔 Gourmand</div>
+
+                <div className="traitsbubbles">🦥 Lazy</div>
+                <div className="traitsbubbles">💤 Sleepy</div>
+                <div className="traitsbubbles">❓ Forgetful</div>
+                <div className="traitsbubbles">
+                  🌏 Geographically-Challenged
+                </div>
+                <div className="traitsbubbles">🌀 Easily-Confused</div>
+
                 <br />
               </div>
             </div>
