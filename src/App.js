@@ -11,7 +11,6 @@ import yui from "./Assets/yui.mp4";
 function App() {
   return (
     <Router>
-      
       <div className="App">
         <ul>
           <li>
@@ -21,7 +20,9 @@ function App() {
             <a href="https://www.deviantart.com/shinyprowl">DeviantArt</a>
           </li>
           <li>
-            <a href="https://bsky.app/profile/shinyprowl.bsky.social">Bluesky</a>
+            <a href="https://bsky.app/profile/shinyprowl.bsky.social">
+              Bluesky
+            </a>
           </li>
           <li>
             <a href="https://x.com/shinyprowl">Twitter</a>
@@ -145,6 +146,42 @@ function App() {
           </div>
           <div className="abouttext">
             <br />
+            <br />
+            <div className="traitsbox">
+              <br />
+              <div className="traitstext"><strong>Traits!</strong></div>
+              <br />
+
+              <div className="traitbubblesrow">
+                <div className="traitsbubbles">🍭 Playful</div>
+                <div className="traitsbubbles">🦜 Chatty</div>
+                <div className="traitsbubbles">🧹 Tidy</div>
+                <div className="traitsbubbles">🎨 Artistic</div>
+                <div className="traitsbubbles">🎭 Sensitive</div>
+                <div className="traitsbubbles">🖍️ Childish</div>
+                <div className="traitsbubbles">🧸 Cuddly</div>
+                <div className="traitsbubbles">🫂 Caring</div>
+                <div className="traitsbubbles">🪲 Bug-Lover</div>
+                <div className="traitsbubbles">🌷 Nature-loving</div>
+                <div className="traitsbubbles">🍃 Carefree</div>
+                <div className="traitsbubbles">💅 Sassy</div>
+                <div className="traitsbubbles">🍌 Clumsy</div>
+                <div className="traitsbubbles">⏳ Patient</div>
+                <div className="traitsbubbles">🔎 Inquisitive</div>
+                <div className="traitsbubbles">🐈 Cat-person</div>
+                <div className="traitsbubbles">🦥 Lazy</div>
+                <div className="traitsbubbles">🐌 Slow</div>
+                <div className="traitsbubbles">🔥 Rancorous</div>
+                <div className="traitsbubbles">📸 Snapshotter</div>
+                <div className="traitsbubbles">🍔 Gourmand</div>
+                <div className="traitsbubbles">☕ Coffee-lover</div>
+                <div className="traitsbubbles">🌀 Easily-Confused</div>
+                <div className="traitsbubbles">
+                  🍍 Pineapple goes on everything!
+                </div>
+                <br />
+              </div>
+            </div>
             <br />
             <hr />
             <br />
