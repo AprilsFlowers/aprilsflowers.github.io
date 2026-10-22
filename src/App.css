@@ -298,7 +298,7 @@ max-height: 500px;
   padding-bottom: 30px;
   padding-top: 10px;
 
-  @media (max-width: 480px) {
+  @media (max-width: 485px) {
   .traitbubblesrow {
     max-height: 400px;    /* Limits the height so it doesn't crop off-screen */
     overflow-y: auto;     /* Adds the vertical scrollbar when content overflows */
@@ -308,11 +308,7 @@ max-height: 500px;
   
 }
 
-.traitstext {
-  font-size: larger;
-  margin-bottom: 30px;         /* Explicitly pushes the bubbles further down */
-}
-  
+
 .traitstext{
   
   color: #ffffff;
@@ -325,6 +321,8 @@ max-height: 500px;
   text-align: center;
 margin: 0 auto;
 margin-bottom: 20px;
+width: 100%;       /* Allows it to fill the container space smoothly */
+  max-width: 250px;   /* Keeps it from stretching too wide on PC */
   
 }
 
