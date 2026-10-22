@@ -292,21 +292,28 @@ padding: 10px;
   align-self: center;
   flex-direction: column;
   overflow: hidden;
+  overflow-y: auto;
+  overflow: clip/hidden;
+  overflow-anchor: none;
   
 
   background-color: #ffffff;
   border: #eec485;
-  border-width: 3px;
+  border-width: 2px;
   border-style: dashed;
   border-radius: 90px;
   
 max-width: 800px;
-max-height: 500px;
+max-height: 300px;
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 30px;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+
+  -ms-overflow-style: none; 
+
 
   @media (max-width: 485px) {
   .traitbubblesrow {
@@ -320,21 +327,38 @@ max-height: 500px;
 }
 
 
-.traitstext{
-  
+.traitstext {
   color: #ffffff;
   font-size: 30px;
-  font-weight: 600px;
+  font-weight: 60px;
   background-color: #ffba52;
   border-radius: 90px;
-  width: 250px;
   height: auto;
   text-align: center;
-margin: 0 auto;
-margin-bottom: 20px;
-width: 100%;       /* Allows it to fill the container space smoothly */
-  max-width: 250px;   /* Keeps it from stretching too wide on PC */
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;       
+  max-width: 250px;   
   
+  
+  /* Setting the anchor point to the exact center for a perfect see-saw balance */
+  transform-origin: center center;
+
+  /* Transitions handle the smooth scale-up pop when your mouse enters */
+  transition: scale 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* 1. Define the gentle rocking timeline */
+@keyframes seesaw-rocking {
+  0%, 100% { rotate: z -3deg; }
+  50%      { rotate: z 3deg; }
+}
+
+.traitstext:hover {
+  scale: 1.1; /* Smoothly pops up on hover */
+  
+  /* 2. Overrides the static layout and runs the infinite see-saw */
+  animation: seesaw-rocking 1.2s ease-in-out infinite;
 }
 
 .traitbubblesrow{

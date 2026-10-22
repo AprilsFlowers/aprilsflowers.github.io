@@ -108,7 +108,6 @@ function App() {
             />
             <br />
 
-            
             <div className="favsbar">
               <strong>Favourites!</strong>
             </div>
@@ -147,12 +146,18 @@ function App() {
           </div>
           <div className="abouttext">
             <br />
-            <br /><div className="traitstext">
-                <strong>Traits!</strong>
-              </div>
+            <br />
+            <div className="traitstext">
+              <strong>Traits!</strong>
+            </div>
+            I wanted a unique and easy way to express my personality
+            <br /> but didn't know how to show a lot in one go, so I made this
+            up!
+            <br />
+            <br />
             <div className="traitsbox">
               <br />
-              
+
               <br />
 
               <div className="traitbubblesrow">
@@ -160,25 +165,34 @@ function App() {
                 <div className="traitsbubbles">🖍️ Childish</div>
                 <div className="traitsbubbles">🦜 Chatty</div>
                 <div className="traitsbubbles">🧹 Tidy</div>
+                <div className="traitsbubbles">🗃️ Organized</div>
+                <div className="traitsbubbles">🤝 Helpful</div>
                 <div className="traitsbubbles">🎨 Artistic</div>
                 <div className="traitsbubbles">🎭 Sensitive</div>
+                <div className="traitsbubbles">🩷 Lovebug</div>
                 <div className="traitsbubbles">🐚 Introvert</div>
                 <div className="traitsbubbles">⏳ Patient</div>
                 <div className="traitsbubbles">🧸 Cuddly</div>
                 <div className="traitsbubbles">🫂 Caring</div>
+
                 <div className="traitsbubbles">🪲 Bug-Lover</div>
-                <div className="traitsbubbles">🌷 Nature-loving</div>
+                <div className="traitsbubbles">🌷 Nature-Lover</div>
                 <div className="traitsbubbles">🍃 Carefree</div>
                 <div className="traitsbubbles">🔎 Inquisitive</div>
                 <div className="traitsbubbles">👁️‍🗨️ Nuanced</div>
                 <div className="traitsbubbles">🐈 Cat-person</div>
                 <div className="traitsbubbles">📸 Snapshotter</div>
+                
+                <div className="traitsbubbles">👻 Camera-Shy</div>
                 <div className="traitsbubbles">🍫 Chocaholic</div>
                 <div className="traitsbubbles">☕ Coffee-Lover</div>
+                <div className="traitsbubbles">🏳️‍🌈 Loves Everyone!</div>
                 <div className="traitsbubbles">
                   🍍 Pineapple goes on everything!
                 </div>
                 <div className="traitsbubbles">💅 Sassy</div>
+                <div className="traitsbubbles">🖥️ Chronically Online</div>
+                <div className="traitsbubbles">🔮 Overthinker</div>
                 <div className="traitsbubbles">🔥 Rancorous</div>
                 <div className="traitsbubbles">🧱 Tactless</div>
                 <div className="traitsbubbles">🐌 Slow</div>
