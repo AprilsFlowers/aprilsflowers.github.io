@@ -93,6 +93,23 @@ function App() {
               I'm particular fond of spiders and beetles, especially bright and
               shiny ones, I find them most beautiful.
               <br />
+              <br />
+              Growing up whilst the internet was evolving really fast, I was
+              raised in the flashgame hay-days
+              <br />
+              So I find a lot of interest in revisiting and checking out old
+              games I used to play!
+              <br />
+              I'm also just a general fan of watching anything about the weird
+              oddities of how videogames functions, what glitches they had, as
+              well as speedruns.
+              <br />
+              <br />
+              My favourite console eras were the Gamecube, Wii and PS2. I have
+              lots of memories of playing on those, but I current use mostly PC
+              and sometimes my Switch.
+              <br />
+              <br />
               <br />I decided to start this project because I wanted a place
               where I can have all my information in one place, as well as share
               some things about me!
@@ -131,10 +148,15 @@ function App() {
             Cicadas
             <br />
             <br />
+            <strong>Favourite Games</strong>
+            <br />
+            Roblox, Minecraft, Taiko no Tatsujin, Kirby's Epic Yarn, Mario
+            Sunshine, Scribblenauts,
+            <br />
+            <br />
             <strong>Favourite Genres</strong>
             <br />
-            Metal, Numetal, Industrial Metal, Punk, Breakcore, Gabba, Vocaloid,
-            Videogames OSTs
+            Survival Co-op, Rhythm, Resource Gathering, Relaxing
             <br />
             <br />
             <strong>Favourite Artists</strong>
@@ -142,6 +164,12 @@ function App() {
             Seether, Three Days Grace, The Offspring, Maneskin, Limp Bizkit,
             Nirvana, Linkinpark, Rammstein, System Of A Down, The Prodigy,
             Stomachbook, Kikuo, Nashimoto-P
+            <br />
+            <br />
+            <strong>Favourite Genres</strong>
+            <br />
+            Metal, Numetal, Industrial Metal, Punk, Breakcore, Gabba, Vocaloid,
+            Videogames OSTs
             <br />
           </div>
           <div className="abouttext">
@@ -182,7 +210,7 @@ function App() {
                 <div className="traitsbubbles">👁️‍🗨️ Nuanced</div>
                 <div className="traitsbubbles">🐈 Cat-person</div>
                 <div className="traitsbubbles">📸 Snapshotter</div>
-                
+
                 <div className="traitsbubbles">👻 Camera-Shy</div>
                 <div className="traitsbubbles">🍫 Chocaholic</div>
                 <div className="traitsbubbles">☕ Coffee-Lover</div>
@@ -194,6 +222,7 @@ function App() {
                 <div className="traitsbubbles">🖥️ Chronically Online</div>
                 <div className="traitsbubbles">🔮 Overthinker</div>
                 <div className="traitsbubbles">🔥 Rancorous</div>
+                <div className="traitsbubbles">🎺 Annoying</div>
                 <div className="traitsbubbles">🧱 Tactless</div>
                 <div className="traitsbubbles">🐌 Slow</div>
                 <div className="traitsbubbles">🍔 Gourmand</div>
@@ -212,9 +241,14 @@ function App() {
             <br />
             <hr />
             <br />
-            <div className="live2dbar">
+            <div className="live2dvideobanner">
+              <video src={snowy} autoPlay preload="auto" loop muted />
+              <div className="live2dbannertext">Live 2D</div>
+            </div>
+            {/* <div className="live2dbar">
               <strong>Live2D</strong>
             </div>
+            <br /> */}
             <br />
             <div className="live2dheader">
               <strong>What is Live2D?</strong>
