@@ -439,6 +439,10 @@ font-weight: 100;
 
 }
 
+.spotifylink{
+  color: #1DB954;
+}
+
 hr {
   border: none;
   height: 1px;  
@@ -561,6 +565,23 @@ padding-bottom: 5px;
 
   
 }
+
+
+.live2dcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-self: center;
+  background-color: #ffcbdf;
+  border-radius: 50px;
+  height: 500px;
+  width: 700px;
+  
+}
+
+
+
 
 .vgen{
   color: #318b25;

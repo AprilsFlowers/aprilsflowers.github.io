@@ -1,0 +1,131 @@
+{
+    "FileMetadata": {
+        "LastSavedVTubeStudioVersion": "1.35.10",
+        "LastSavedPlatform": "Steam",
+        "LastSavedDateUTC": "Friday, 23 October 2026, 06:03:54",
+        "LastSavedDateLocalTime": "Friday, 23 October 2026, 17:03:54",
+        "LastSavedDateUnixMillisecondTimestamp": "1792735434661",
+        "TotalSaveCount": 1
+    },
+    "SceneName": "",
+    "SceneGroupName": "",
+    "SceneModel": "",
+    "SceneID": "",
+    "Items": [
+        {
+            "VNetJustBorrowedFrom": 0,
+            "VNetJustBorrowedFromItemID": -1,
+            "ItemName": "Ribbon Bell (Little Mewn)",
+            "ItemObjectInScene": {
+                "instanceID": 0
+            },
+            "ItemFileName": "Ribbon Bell (Little Mewn)",
+            "ItemInstanceUUID": "dd4acc3e55804f8381c0fa607c26ecae",
+            "Selected": true,
+            "TrackingModel": true,
+            "IsAnimated": false,
+            "IsVideo": false,
+            "IsModel": true,
+            "IsWeb": false,
+            "IsCensored": false,
+            "IsFlipped": false,
+            "IsLocked": false,
+            "Smoothing": 0.0,
+            "Order": 1,
+            "FPS": 0.0,
+            "IsPinned": true,
+            "PinnedTo": "Chest_Fluff",
+            "PinnedModel_Live2D": "April",
+            "PinnedModel_VTS": "April",
+            "PinnedModel_InternalID": "cc06758050cc4b37b51e2bb8ae44cd90",
+            "PinnedVertexIDs": "85 84 78 48 86 79",
+            "PinnedVertexPositions": [
+                {
+                    "x": -0.008355725556612015,
+                    "y": -0.07430944591760636,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.0342034175992012,
+                    "y": -0.07789094001054764,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.02257540263235569,
+                    "y": -0.04985111206769943,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.014260347001254559,
+                    "y": -0.09922471642494202,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.013401390053331852,
+                    "y": -0.07273495942354202,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0003004667814821005,
+                    "y": -0.0482797846198082,
+                    "z": 0.0
+                }
+            ],
+            "PinnedVertexCenterOffset": {
+                "x": -0.0036127865314483644,
+                "y": -0.0017529428005218506,
+                "z": 0.0
+            },
+            "Size": 0.03185677528381348,
+            "ModelScaleMultiplier": 0.006547769531607628,
+            "Rotation": 1.1379008293151856,
+            "Position": {
+                "x": -0.004235080908983946,
+                "y": -0.05995253846049309,
+                "z": 0.0
+            },
+            "Group": "",
+            "Scene": "",
+            "AssetType": 6,
+            "FromWorkshop": false,
+            "FromHotkey": false,
+            "FromAPI": false,
+            "FadeTime": 0.5,
+            "Plugin": "",
+            "WebItemURL": "",
+            "WebItemUseCustomCSS": false,
+            "WebItemCustomCSS": "body {\n    background-color: rgba(0, 0, 0, 0);\n    margin: 0px auto;\n    overflow: hidden;\n}",
+            "WebItemZoomPercent": 100,
+            "WebItemAlphaMultiplier": 1.0,
+            "WebItemCropLeftRightTopBottom": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "WebItemSizeInUnityUnits": {
+                "x": 0.6000000238418579,
+                "y": 0.30000001192092898
+            },
+            "WebItemSizeInPixels": {
+                "x": 1024,
+                "y": 576
+            },
+            "WebItemMuted": false,
+            "WebItemAllowLocalURLs": false,
+            "WebItemAllowTransparentBackground": true,
+            "WebItemInteractable": true,
+            "WebItemScrollSensitivity": 0.4000000059604645,
+            "WithinModelPin_On": false,
+            "WithinModelPin_BackOn": false,
+            "WithinModelPin_Layer": -1,
+            "WithinModelPin_ArtMeshID": "<<<LAYER_SPECIAL_TOP>>>",
+            "WithinModelPin_ArtMeshIDBackLayers": "<<<LAYER_SPECIAL_BOTTOM>>>",
+            "WithinModelPin_DoNotPinToLayersAboveItem": true,
+            "WithinModelPin_SpecificPinLayer_On": false,
+            "WithinModelPin_SpecificPinLayer": "",
+            "WithinModelPin_ShowFrontBack": false,
+            "WithinModelPin_SplitLive2DItemAt": "BELL_CHAIN_1"
+        }
+    ]
+}

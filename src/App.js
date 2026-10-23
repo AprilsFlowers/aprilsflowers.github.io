@@ -106,8 +106,8 @@ function App() {
               <br />
               <br />
               My favourite console eras were the Gamecube, Wii and PS2. I have
-              lots of memories of playing on those, but I current use mostly PC
-              and sometimes my Switch.
+              lots of memories of playing on those, but I currently mostly use
+              PC and sometimes my Switch.
               <br />
               <br />
               <br />I decided to start this project because I wanted a place
@@ -156,7 +156,7 @@ function App() {
             <br />
             <strong>Favourite Genres</strong>
             <br />
-            Survival Co-op, Rhythm, Resource Gathering, Relaxing
+            Survival Co-op, Rhythm, Resource Gathering, Relaxing, Flash
             <br />
             <br />
             <strong>Favourite Artists</strong>
@@ -170,6 +170,18 @@ function App() {
             <br />
             Metal, Numetal, Industrial Metal, Punk, Breakcore, Gabba, Vocaloid,
             Videogames OSTs
+            <br />
+            <br />
+            <strong>Favourite Songs</strong>
+            <br />
+            <div className="spotifylink">
+              <a
+                href="https://open.spotify.com/playlist/7uI3LvnmOeB8ndBUElC2JP?si=980d50eb02544e05"
+                class="spotifylink"
+              >
+                <strong>Spotify Playlist</strong>
+              </a>
+            </div>
             <br />
           </div>
           <div className="abouttext">
@@ -372,6 +384,7 @@ function App() {
                 View Showcases
               </a>
             </div>
+            <br />
             <br />
             <br />
             <hr />
