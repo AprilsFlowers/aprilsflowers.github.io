@@ -7,6 +7,9 @@ import aprilshowcase from "./Assets/aprilshowcase.mp4";
 import blossom from "./Assets/blossom.mp4";
 import mystic from "./Assets/mystic.mp4";
 import yui from "./Assets/yui.mp4";
+import shinyicon from "./Assets/shinyicon.png";
+import mayicon from "./Assets/mayicon.png";
+import apriliconweb from "./Assets/apriliconweb.webp";
 
 function App() {
   return (
@@ -95,7 +98,7 @@ function App() {
               <br />
               <br />
               Growing up whilst the internet was evolving really fast, I was
-              raised in the flashgame hay-days
+              raised in the era of flash!
               <br />
               So I find a lot of interest in revisiting and checking out old
               games I used to play!
@@ -115,7 +118,60 @@ function App() {
               some things about me!
             </div>
             <br />
+            <div className="charactersbar">
+              <strong>My Characters!</strong>
+            </div>
+            <br />
+            These are my characters, I've designed them to reflect different parts of me.
+            <br />
+            April is my newest fursona, whilst Shiny is my oldest fursona.
+            <br />
+            <div className="characterscontainer">
+              <div className="characterstext">My Characters!</div>
 
+              {/* 1. This parent box controls the layout and positioning of the bubbles */}
+              <div className="charactersbox">
+                {/* 2. Each image gets the exact same class for sizing and shaping */}
+                <div className="characterbubble">
+                  <a href="https://toyhou.se/35868080.april">
+                    <img src={apriliconweb} alt="April" />
+                  </a>
+                  <div className="aprilname">
+                    <strong>April</strong>
+                  </div>
+                  <div className="description">
+                    A gentle and meek cat with an affinity for flowers. Her calm
+                    demeanor is easily turned into worry at the slightest social
+                    interaction.
+                  </div>
+                </div>
+
+                <div className="characterbubble">
+                  <a href="https://toyhou.se/38172488.may">
+                    <img src={mayicon} alt="May" />
+                  </a>
+                  <div className="mayname">
+                    <strong>May</strong>
+                  </div>
+                  <div className="description">
+                    Childish and niave, she doesn't let anything rain on her parade. She radiates friendliness wherever she goes and is always down to play!
+                  </div>
+                </div>
+
+                <div className="characterbubble">
+                  <a href="https://toyhou.se/23921183.shiny">
+                    <img src={shinyicon} alt="Shiny" />
+                  </a>
+                  <div className="shinyname">
+                    <strong>Shiny</strong>
+                  </div>
+                  <div className="description">
+                    A unique and unassuming blend of a rabbit and a spider. She
+                    is fiesty and bratty but well-meaning and cares deeply for her friends.
+                  </div>
+                </div>
+              </div>
+            </div>
             <video
               className="aprilvideo"
               src={video}
@@ -124,7 +180,6 @@ function App() {
               loop
             />
             <br />
-
             <div className="favsbar">
               <strong>Favourites!</strong>
             </div>

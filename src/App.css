@@ -128,6 +128,7 @@ ul li a:hover {
   margin-top: -15px;
   color: #495248;
   background-color: #ff9d4c00;
+  
 
 }
 
@@ -245,7 +246,7 @@ ul li a:hover {
     color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
-  background-color: #80c28b;
+  background-color: #70cf7f;
   border-radius: 90px;
   width: 250px;
   height: auto;
@@ -286,6 +287,148 @@ padding: 10px;
 
 }
 
+.charactersbar{color: #ffffff;
+  font-size: 30px;
+  font-weight: 600px;
+  background-color: #76d4ff;
+  border-radius: 90px;
+  width: 250px;
+  height: auto;
+  text-align: center;
+  padding-bottom: 5px;
+  
+margin: 0 auto;
+
+
+}
+.characterscontainer {
+  background-color: #ff7ec700;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 70px;
+  border-color: #ff88ac00;
+  padding-bottom: 20px;
+  
+}
+.characterstext {
+  color: white;
+  font-size: 30px;
+}
+
+.charactersbox {
+  display: flex;
+  justify-content: center;  
+  align-items: flex-start;  /* 🚀 KEEP THEM ALL LOCKED TO THE TOP LINE */
+  flex-direction: row;
+  flex-wrap: nowrap;     
+  width: 100%;           
+  column-gap: 15px;         /* Match your current mobile gap preference */
+  background-color: #adcee000;
+  box-sizing: border-box;
+}
+
+.characterbubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 30%;         
+  max-width: 180px;      
+  padding: 10px;         
+  transition: transform 0.5s ease-in-out;
+  box-sizing: border-box;
+}
+
+
+.characterbubble img {
+  width: 100%;           /* Scales smoothly with the parent bubble width */
+  height: auto;          /* 🚀 KEEPS YOUR ART RATIO PERFECT WITHOUT DISTORTION */
+  display: block;
+}
+
+.characterbubble:hover {
+  transform: scale(1.1); 
+}
+
+/* 1. HIDE THE DESCRIPTION BOX BY DEFAULT */
+.description {
+  
+  opacity: 0;                         
+  visibility: hidden;                 
+  max-height: 0;            /* Hides its layout height by default */
+  overflow: hidden;         /* Keeps text invisible while height is zero */
+  
+  /* Smooth transition for both visibility and layout height scaling */
+  transition: opacity 0.3s ease, max-height 0.3s ease, visibility 0.3s ease, margin-top 0.3s ease; 
+  
+  /* Styling details */
+  margin-top: 0px;
+  font-size: 17px;
+  color: #555;                        
+  text-align: center;
+}
+
+/* 3. REVEAL THE HEIGHT AND TEXT ORGANICALLY ON HOVER */
+.characterbubble:hover .description {
+  opacity: 1;                         
+  visibility: visible;                
+  margin-top: 12px;         /* Adds clean separation under the name pill on hover */
+  max-height: 350px;        /* 🚀 OPENS UP NATURAL ROOM TO PUSH THE BOTTOM IMAGES DOWN */
+}
+
+
+/* 4. UPDATE THE HOVER MIX FOR ABSOLUTE POSITIONING */
+.characterbubble:hover .description {
+  opacity: 1;                         
+  visibility: visible;                
+  transform: translateX(-50%) translateY(5px); /* 🚀 SLIDES DOWN GENTLY ON HOVER WITH HORIZONTAL CENTERING */
+}
+
+
+/* 2. REVEAL IT SMOOTHLY WHEN THE CHARACTER BUBBLE IS HOVERED */
+.characterbubble:hover .description {
+  opacity: 1;                         /* Fades in smoothly */
+  visibility: visible;                /* Makes it interactive */
+  transform: translateY(0);           /* Gently slides down to its final spot */
+}
+
+
+.aprilname{
+  display: flex;
+  justify-content: center;  /* Centers the text inside the tag */
+  align-items: center;
+  margin-top: 10px;         /* Adds a clean gap below the image */
+  background-color: #53df82;
+  color: #155e24;
+  border-radius: 90px;
+  height: 21px;
+  width: fit-content;
+  padding: 10px 20px;
+}
+.mayname{
+  display: flex;
+  justify-content: center;  /* Centers the text inside the tag */
+  align-items: center;
+  margin-top: 10px;         /* Adds a clean gap below the image */
+  background-color: #fafc91;
+  color: #8b6e1d;
+  border-radius: 90px;
+  height: 20px;
+  width: fit-content;
+  padding: 10px 20px;
+}
+.shinyname{
+  display: flex;
+  justify-content: center;  /* Centers the text inside the tag */
+  align-items: center;
+  margin-top: 10px;         /* Adds a clean gap below the image */
+  background-color: #ffa7d3;
+  color: #8f2a54;
+  border-radius: 90px;
+  height: 20px;
+  width: fit-content;
+  padding: 10px 20px;
+}
 
 .traitsbox {
   display: flex;
@@ -369,6 +512,7 @@ max-height: 300px;
   width: 100%;
   gap: 10px;
   justify-content: center;
+  background-color: ;
   
 }
   .traitsbubbles {
