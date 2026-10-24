@@ -430,12 +430,17 @@ margin: 0 auto;
   padding: 10px 20px;
 }
 
+
+.traitsboxscroll{
+overflow-y: auto;
+}
+
 .traitsbox {
   display: flex;
   align-self: center;
   flex-direction: column;
   overflow: hidden;
-  overflow-y: auto;
+  
   overflow: clip/hidden;
   overflow-anchor: none;
   

@@ -154,7 +154,7 @@ function App() {
                     <strong>May</strong>
                   </div>
                   <div className="description">
-                    Childish and niave, she doesn't let anything rain on her parade. She radiates friendliness wherever she goes and is always down to play!
+                    Childish and naive, she doesn't let anything rain on her parade. She radiates friendliness wherever she goes and is always down to play!
                   </div>
                 </div>
 
@@ -167,7 +167,7 @@ function App() {
                   </div>
                   <div className="description">
                     A unique and unassuming blend of a rabbit and a spider. She
-                    is fiesty and bratty but well-meaning and cares deeply for her friends.
+                    is feisty and bratty but well-meaning and cares deeply for her friends.
                   </div>
                 </div>
               </div>
@@ -251,11 +251,7 @@ function App() {
             <br />
             <br />
             <div className="traitsbox">
-              <br />
-
-              <br />
-
-              <div className="traitbubblesrow">
+              <div className="traitsboxscroll"><div className="traitbubblesrow">
                 <div className="traitsbubbles">🍭 Playful</div>
                 <div className="traitsbubbles">🖍️ Childish</div>
                 <div className="traitsbubbles">🦜 Chatty</div>
@@ -301,9 +297,10 @@ function App() {
                   🌏 Geographically-Challenged
                 </div>
                 <div className="traitsbubbles">🌀 Easily-Confused</div>
+              </div> </div>
+              
 
-                <br />
-              </div>
+              
             </div>
             <br />
             <hr />
@@ -340,6 +337,7 @@ function App() {
             <br />
             <br />
             <br />
+            <hr/>
             <div className="live2dheader">
               <strong>My Journey</strong>
             </div>
