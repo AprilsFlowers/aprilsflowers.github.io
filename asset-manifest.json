@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.0100799f.css",
-    "main.js": "/static/js/main.992009e0.js",
+    "main.css": "/static/css/main.7d24c7ef.css",
+    "main.js": "/static/js/main.3ddeecf2.js",
     "static/media/snowy.mp4": "/static/media/snowy.90e0f03a874e888dcbd3.mp4",
     "static/media/jitters.mp4": "/static/media/jitters.2ffc81bf5703dbff9a48.mp4",
     "static/media/blossom.mp4": "/static/media/blossom.80ab6df871eb42daeb4a.mp4",
     "static/media/yui.mp4": "/static/media/yui.18a96f451c87f9b17701.mp4",
     "static/media/mystic.mp4": "/static/media/mystic.0811278b3b62e8a5a591.mp4",
     "static/media/april-video.mp4": "/static/media/april-video.e8bbbf3a428f835c649c.mp4",
+    "static/media/mayicon.png": "/static/media/mayicon.4fd54a9b39d0f6679e9e.png",
+    "static/media/shinyicon.png": "/static/media/shinyicon.9d6f3b15beda36ea8dd7.png",
     "static/media/aprilshowcase.mp4": "/static/media/aprilshowcase.4ae37dacd4e08d80f6eb.mp4",
     "static/media/waveicon.webp": "/static/media/waveicon.7a0d362dcef453b8a60c.webp",
+    "static/media/apriliconweb.webp": "/static/media/apriliconweb.50a5e2f20782a531a89f.webp",
     "static/media/waa.webp": "/static/media/waa.8d166daa102e23dc5a36.webp",
     "index.html": "/index.html",
-    "main.0100799f.css.map": "/static/css/main.0100799f.css.map",
-    "main.992009e0.js.map": "/static/js/main.992009e0.js.map"
+    "main.7d24c7ef.css.map": "/static/css/main.7d24c7ef.css.map",
+    "main.3ddeecf2.js.map": "/static/js/main.3ddeecf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0100799f.css",
-    "static/js/main.992009e0.js"
+    "static/css/main.7d24c7ef.css",
+    "static/js/main.3ddeecf2.js"
   ]
 }
