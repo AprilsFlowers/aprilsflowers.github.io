@@ -4,8 +4,9 @@
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  background-color: rgb(245, 248, 246);
+  background-color: rgb(128, 103, 103);
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -42,6 +43,40 @@
   }
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-image: url(./Assets/collagebannerdarkened.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  box-shadow: 0 10px 15px rgba(39, 22, 21, 0.534);
+}
+
+.bannertext{
+  padding: 20px;
+  color: rgb(255, 255, 255);                     
+  font-size: 90px;                
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  
+  font-family: 'Playwrite IT Trad', cursive;
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 170px;            
+  }
+
+  .bannertext {
+    font-size: 40px;          
+    white-space: normal;      
+    padding: 10px;
+  }
+}
+
 ul {
   list-style-type: none;
   display:flex;
@@ -49,7 +84,7 @@ ul {
   justify-content: center;
   margin: 0;
   overflow: hidden;
-  background-color: #82b197;
+  background-color: #709681;
   padding: 0;
   font-size: 20px;
   border-radius: 90px;
@@ -72,13 +107,13 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #6b9b80;
+  background-color: #4b6e59a9;
 }
 
 
 
 .box {
-  background-color: #ff565600;
+  background-color: #d3cc89;
   /* width: 1000px; */
   /* width: 100%; */
   width: min(2000px, 90%);
@@ -97,7 +132,7 @@ ul li a:hover {
 }
 
 .round {
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(252, 243, 233);
   /* width: 800px; */
   width: min(2000px, 85%);
   /* height:1500px; */
@@ -112,6 +147,7 @@ ul li a:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: var(--step-0);
+  box-shadow: 0px 10px 40px 30px rgba(39, 22, 21, 0.534)
 }
 
 .greeting{
@@ -246,7 +282,7 @@ ul li a:hover {
     color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
-  background-color: #70cf7f;
+  background-color: #6db177;
   border-radius: 90px;
   width: 250px;
   height: auto;
@@ -261,7 +297,7 @@ transition: transform 0.2s ease-in-out;
 .aboutbar:hover {
   transform: scale(1.1);
   transform: rotateZ(3deg),;
-  background-color: #71ce82;
+  background-color: #68aa74;
   
 }
 
@@ -290,7 +326,7 @@ padding: 10px;
 .charactersbar{color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
-  background-color: #76d4ff;
+  background-color: #c5a79a;
   border-radius: 90px;
   width: 250px;
   height: auto;
@@ -445,7 +481,7 @@ overflow-y: auto;
   overflow-anchor: none;
   
 
-  background-color: #ffffff;
+  background-color: #ffffff9f;
   border: #eec485;
   border-width: 2px;
   border-style: dashed;
@@ -479,7 +515,7 @@ max-height: 300px;
   color: #ffffff;
   font-size: 30px;
   font-weight: 60px;
-  background-color: #ffba52;
+  background-color: #e9c696;
   border-radius: 90px;
   height: auto;
   text-align: center;
@@ -595,7 +631,7 @@ font-weight: 100;
 hr {
   border: none;
   height: 1px;  
-  background: #cccccc98;
+  background: #42343431;
   max-width: 700px;
 }
 
@@ -730,10 +766,23 @@ padding-bottom: 5px;
 }
 
 
-
+.commissioninfo{
+  display: flex;
+  margin:auto;
+  justify-content: center;
+  align-self: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(92, 64, 64, 0.507);
+  width: fit-content;
+  color: #201413;
+  
+  
+}
 
 .vgen{
-  color: #318b25;
+  color: #f6f7f6;
+  margin-left: 2px;
 }
 .youtube{
   color:#3c97cc
@@ -762,6 +811,9 @@ padding-bottom: 5px;
   font-weight: 100;
   font-size: 20;
   margin-top: 10px;
+  background-color: #ffffffd2;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .ves {
@@ -798,13 +850,13 @@ padding-bottom: 5px;
 
 
 footer{
-  background-color: #ececec;
+  background-color: #5f4545;
   padding: 5px;
   text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-  color: #0000004d;
+  color: #fcfbfb4d;
 }
 
 

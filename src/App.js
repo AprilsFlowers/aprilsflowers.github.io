@@ -10,11 +10,15 @@ import yui from "./Assets/yui.mp4";
 import shinyicon from "./Assets/shinyicon.png";
 import mayicon from "./Assets/mayicon.png";
 import apriliconweb from "./Assets/apriliconweb.webp";
+import collagebannerdarkened from "./Assets/collagebannerdarkened.png";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <div className="banner">
+          <div className="bannertext">Welcome to my Garden</div>
+        </div>
         <ul>
           <li>
             <a href="https://www.youtube.com/@shinyprowl/videos">Youtube</a>
@@ -102,12 +106,12 @@ function App() {
               shiny ones, I find them most beautiful.
               <br />
               <br />
-              I sometimes imagine myself having my own little flowerbed. I
-              love when I can smell flowers during the summer season, it's
-              something I look forward to every year.
+              I sometimes imagine myself having my own little flowerbed. I love
+              when I can smell flowers during the summer season, it's something
+              I look forward to every year.
               <br />
-              It would be lovely to watch bees and butterflies and other
-              insects around it. That would be an amazing sight to see.
+              It would be lovely to watch bees and butterflies and other insects
+              around it. That would be an amazing sight to see.
               <br />
               <br />
               Growing up whilst the internet was evolving really fast, I was
@@ -144,8 +148,10 @@ function App() {
             April is my newest fursona, whilst Shiny is my oldest fursona.
             <br />
             Clicking the bubbles will take you to their Toyhouse page.
+            <br />
+            <br />
             <div className="characterscontainer">
-              <div className="characterstext">My Characters!</div>
+              <div className="characterstext"></div>
 
               {/* 1. This parent box controls the layout and positioning of the bubbles */}
               <div className="charactersbox">
@@ -328,7 +334,6 @@ function App() {
               </div>
             </div>
             <br />
-            <hr />
             <br />
             <div className="live2dvideobanner">
               <video src={snowy} autoPlay preload="auto" loop muted />
@@ -446,11 +451,13 @@ function App() {
             model I create.
             <br />
             <br />
-            Commission Info ⇢
-            <div className="vgen">
-              <a href="https://vgen.co/Shinyprowl" class="vgen">
-                https://vgen.co/Shinyprowl
-              </a>
+            <div className="commissioninfo">
+              Commission Info ⇢
+              <div className="vgen">
+                <a href="https://vgen.co/Shinyprowl" class="vgen">
+                  https://vgen.co/Shinyprowl
+                </a>
+              </div>
             </div>
             <br />
             You can also view all of my models on Youtube!
