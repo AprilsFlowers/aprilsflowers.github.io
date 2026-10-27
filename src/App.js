@@ -49,7 +49,7 @@ function App() {
               "nya"
             </div>
             <div className="quotesbox" style={{ "--delay": "calc(10s * 1)" }}>
-              "meow!"
+              "*boggles*"
             </div>
             <div className="quotesbox" style={{ "--delay": "calc(10s * 2)" }}>
               "im a cat"
@@ -82,12 +82,17 @@ function App() {
               I like to create kemono furry artworks, as well as draw and rig
               Live2D Vtuber models!
               <br />
+              I also like to draw cute pokemon and other chibi characters.
+              <br />
               <br />
               I have a strong interest in collecting cute trinkets and plushies
               of my favourite characters.
               <br />
               I have a huge collection of Cinnamoroll, Kirby, and Sylveon taking
               over my room.
+              <br />
+              The more cute, the better! I like decorating my space with
+              childish items.
               <br />
               <br />
               I also really like blogging and ID'ing insects, specifically in
@@ -97,11 +102,17 @@ function App() {
               shiny ones, I find them most beautiful.
               <br />
               <br />
-              Growing up whilst the internet was evolving really fast, I was
-              raised in the era of flash!
+              I sometimes imagine myself having my own little flowerbed. I
+              love when I can smell flowers during the summer season, it's
+              something I look forward to every year.
               <br />
-              So I find a lot of interest in revisiting and checking out old
-              games I used to play!
+              It would be lovely to watch bees and butterflies and other
+              insects around it. That would be an amazing sight to see.
+              <br />
+              <br />
+              Growing up whilst the internet was evolving really fast, I was
+              raised in the era of flash! So I also find a lot of interest in
+              revisiting and checking out old games I used to play!
               <br />
               I'm also just a general fan of watching anything about the weird
               oddities of how videogames functions, what glitches they had, as
@@ -113,19 +124,26 @@ function App() {
               PC and sometimes my Switch.
               <br />
               <br />
-              <br />I decided to start this project because I wanted a place
-              where I can have all my information in one place, as well as share
-              some things about me!
+              <hr />
+              <br />I decided to work this project because I wanted a place
+              where I can be unapologetically myself, share things about me, and
+              do a quick display of the stuff I do!
+              <br />
+              As I learn more about CSS and the ways I can make this site truly
+              my own, it'll slowly evolve!
+              <br />
             </div>
             <br />
             <div className="charactersbar">
               <strong>My Characters!</strong>
             </div>
             <br />
-            These are my characters, I've designed them to reflect different parts of me.
+            These are my characters, I've designed them to reflect different
+            parts of me.
             <br />
             April is my newest fursona, whilst Shiny is my oldest fursona.
             <br />
+            Clicking the bubbles will take you to their Toyhouse page.
             <div className="characterscontainer">
               <div className="characterstext">My Characters!</div>
 
@@ -154,7 +172,9 @@ function App() {
                     <strong>May</strong>
                   </div>
                   <div className="description">
-                    Childish and naive, she doesn't let anything rain on her parade. She radiates friendliness wherever she goes and is always down to play!
+                    Childish and naive, she doesn't let anything rain on her
+                    parade. She radiates friendliness wherever she goes and is
+                    always down to play!
                   </div>
                 </div>
 
@@ -167,7 +187,8 @@ function App() {
                   </div>
                   <div className="description">
                     A unique and unassuming blend of a rabbit and a spider. She
-                    is feisty and bratty but well-meaning and cares deeply for her friends.
+                    is feisty and bratty but well-meaning and cares deeply for
+                    her friends.
                   </div>
                 </div>
               </div>
@@ -195,6 +216,11 @@ function App() {
             <br />
             Sylveon, Buneary, Minccino, Alcremie, Indeedee, Gastrodon, Goodra,
             Audino, Clefairy, Cleffa, Meowscarada, Floragato
+            <br />
+            <br />
+            <strong>Favourite Umas</strong>
+            <br />
+            Wonder Acute, Haru Urara, Still in Love, Rice Shower
             <br />
             <br />
             <strong>Favourite Insects</strong>
@@ -251,56 +277,55 @@ function App() {
             <br />
             <br />
             <div className="traitsbox">
-              <div className="traitsboxscroll"><div className="traitbubblesrow">
-                <div className="traitsbubbles">🍭 Playful</div>
-                <div className="traitsbubbles">🖍️ Childish</div>
-                <div className="traitsbubbles">🦜 Chatty</div>
-                <div className="traitsbubbles">🧹 Tidy</div>
-                <div className="traitsbubbles">🗃️ Organized</div>
-                <div className="traitsbubbles">🤝 Helpful</div>
-                <div className="traitsbubbles">🎨 Artistic</div>
-                <div className="traitsbubbles">🎭 Sensitive</div>
-                <div className="traitsbubbles">🩷 Lovebug</div>
-                <div className="traitsbubbles">🐚 Introvert</div>
-                <div className="traitsbubbles">⏳ Patient</div>
-                <div className="traitsbubbles">🧸 Cuddly</div>
-                <div className="traitsbubbles">🫂 Caring</div>
+              <div className="traitsboxscroll">
+                <div className="traitbubblesrow">
+                  <div className="traitsbubbles">🍭 Playful</div>
+                  <div className="traitsbubbles">🖍️ Childish</div>
+                  <div className="traitsbubbles">🦜 Chatty</div>
+                  <div className="traitsbubbles">🧹 Tidy</div>
+                  <div className="traitsbubbles">🗃️ Organized</div>
+                  <div className="traitsbubbles">🤝 Helpful</div>
+                  <div className="traitsbubbles">🎨 Artistic</div>
+                  <div className="traitsbubbles">🎭 Sensitive</div>
+                  <div className="traitsbubbles">🩷 Lovebug</div>
+                  <div className="traitsbubbles">🐚 Introvert</div>
+                  <div className="traitsbubbles">⏳ Patient</div>
+                  <div className="traitsbubbles">🧸 Cuddly</div>
+                  <div className="traitsbubbles">🫂 Caring</div>
 
-                <div className="traitsbubbles">🪲 Bug-Lover</div>
-                <div className="traitsbubbles">🌷 Nature-Lover</div>
-                <div className="traitsbubbles">🍃 Carefree</div>
-                <div className="traitsbubbles">🔎 Inquisitive</div>
-                <div className="traitsbubbles">👁️‍🗨️ Nuanced</div>
-                <div className="traitsbubbles">🐈 Cat-person</div>
-                <div className="traitsbubbles">📸 Snapshotter</div>
+                  <div className="traitsbubbles">🪲 Bug-Lover</div>
+                  <div className="traitsbubbles">🌷 Nature-Lover</div>
+                  <div className="traitsbubbles">🍃 Carefree</div>
+                  <div className="traitsbubbles">🔎 Inquisitive</div>
+                  <div className="traitsbubbles">👁️‍🗨️ Nuanced</div>
+                  <div className="traitsbubbles">🐈 Cat-person</div>
+                  <div className="traitsbubbles">📸 Snapshotter</div>
 
-                <div className="traitsbubbles">👻 Camera-Shy</div>
-                <div className="traitsbubbles">🍫 Chocaholic</div>
-                <div className="traitsbubbles">☕ Coffee-Lover</div>
-                <div className="traitsbubbles">🏳️‍🌈 Loves Everyone!</div>
-                <div className="traitsbubbles">
-                  🍍 Pineapple goes on everything!
-                </div>
-                <div className="traitsbubbles">💅 Sassy</div>
-                <div className="traitsbubbles">🖥️ Chronically Online</div>
-                <div className="traitsbubbles">🔮 Overthinker</div>
-                <div className="traitsbubbles">🔥 Rancorous</div>
-                <div className="traitsbubbles">🎺 Annoying</div>
-                <div className="traitsbubbles">🧱 Tactless</div>
-                <div className="traitsbubbles">🐌 Slow</div>
-                <div className="traitsbubbles">🍔 Gourmand</div>
+                  <div className="traitsbubbles">👻 Camera-Shy</div>
+                  <div className="traitsbubbles">🍫 Chocaholic</div>
+                  <div className="traitsbubbles">☕ Coffee-Lover</div>
+                  <div className="traitsbubbles">🏳️‍🌈 Loves Everyone!</div>
+                  <div className="traitsbubbles">
+                    🍍 Pineapple goes on everything!
+                  </div>
+                  <div className="traitsbubbles">💅 Sassy</div>
+                  <div className="traitsbubbles">🖥️ Chronically Online</div>
+                  <div className="traitsbubbles">🔮 Overthinker</div>
+                  <div className="traitsbubbles">🔥 Rancorous</div>
+                  <div className="traitsbubbles">🎺 Annoying</div>
+                  <div className="traitsbubbles">🧱 Tactless</div>
+                  <div className="traitsbubbles">🐌 Slow</div>
+                  <div className="traitsbubbles">🍔 Gourmand</div>
 
-                <div className="traitsbubbles">🦥 Lazy</div>
-                <div className="traitsbubbles">💤 Sleepy</div>
-                <div className="traitsbubbles">❓ Forgetful</div>
-                <div className="traitsbubbles">
-                  🌏 Geographically-Challenged
-                </div>
-                <div className="traitsbubbles">🌀 Easily-Confused</div>
-              </div> </div>
-              
-
-              
+                  <div className="traitsbubbles">🦥 Lazy</div>
+                  <div className="traitsbubbles">💤 Sleepy</div>
+                  <div className="traitsbubbles">❓ Forgetful</div>
+                  <div className="traitsbubbles">
+                    🌏 Geographically-Challenged
+                  </div>
+                  <div className="traitsbubbles">🌀 Easily-Confused</div>
+                </div>{" "}
+              </div>
             </div>
             <br />
             <hr />
@@ -337,7 +362,7 @@ function App() {
             <br />
             <br />
             <br />
-            <hr/>
+            <hr />
             <div className="live2dheader">
               <strong>My Journey</strong>
             </div>
