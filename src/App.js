@@ -10,7 +10,7 @@ import yui from "./Assets/yui.mp4";
 import shinyicon from "./Assets/shinyicon.png";
 import mayicon from "./Assets/mayicon.png";
 import apriliconweb from "./Assets/apriliconweb.webp";
-import collagebannerdarkened from "./Assets/collagebannerdarkened.png";
+import collagebannerdarkened from "./Assets/collagebannerdarkened.webp";
 
 function App() {
   return (
