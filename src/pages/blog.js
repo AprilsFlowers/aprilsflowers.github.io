@@ -96,18 +96,23 @@ function blog() {
               She was originally drawn as a Live2D model, but I grew so attached
               that I made her my new fursona.
               <br />
-              Her calm colours were very intentional compared to my old bright pink fursona.
-              <br/>
-              Green was also chosen as the accent colour due to the flower I use to represent her, which is the flannel flower.
-              <br/>
+              Her calm colours were very intentional compared to my old bright
+              pink fursona.
+              <br />
+              Green was also chosen as the accent colour due to the flower I use
+              to represent her, which is the flannel flower.
+              <br />
               Green is also just a nice relaxing colour.
-              <br/>
-              I wanted to give her a soft and calm look, and I think I did a good job of it!
-              <br/>
-              I'll find time to make some new art of her to celebrate her turning 1 year old today!
-              I can't believe it's already been 1 year!
-              <br/>
-              April is very special to me, so I want to pour some time into giving her some nice art~
+              <br />
+              I wanted to give her a soft and calm look, and I think I did a
+              good job of it!
+              <br />
+              I'll find time to make some new art of her to celebrate her
+              turning 1 year old today! I can't believe it's already been 1
+              year!
+              <br />
+              April is very special to me, so I want to pour some time into
+              giving her some nice art~
             </p>
             <br />
             <br />
