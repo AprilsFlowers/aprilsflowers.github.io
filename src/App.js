@@ -24,9 +24,7 @@ function App() {
             <a href="https://www.deviantart.com/shinyprowl">DeviantArt</a>
           </li>
           <li>
-            <a href="https://bsky.app/profile/shinyprowl.bsky.social">
-              Bluesky
-            </a>
+            <a href="https://bsky.app/profile/shinyprowl.bsky.social">Blueky</a>
           </li>
           <li>
             <a href="https://x.com/shinyprowl">Twitter</a>
@@ -35,7 +33,7 @@ function App() {
             <a href="https://vgen.co/Shinyprowl">Commissions</a>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/Blog">Blog</Link>
           </li>
         </ul>
         <div className="banner">
