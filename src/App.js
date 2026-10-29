@@ -33,7 +33,7 @@ function App() {
             <a href="https://vgen.co/Shinyprowl">Commissions</a>
           </li>
           <li>
-            <Link to="/Blog">Blog</Link>
+            <Link to="/BlogPage">Blog</Link>
           </li>
         </ul>
         <div className="banner">
