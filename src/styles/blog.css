@@ -1,18 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Stops horizontal scrolling entirely */
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Changed from 'right' to 'center' for mobile scaling */
+  margin: 0;
+  padding: 0;               /* Cleaned up padding for centering */
+  background-color: #3d3230;
+  font-size: 20px;
+  width: 100%;             /* Changed from 'fit-content' so it spans full screen width */
+  min-height: 80px;        /* Changed from height to min-height for clean wrap formatting */
+}
+
+
+ul li {
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: rgb(226, 213, 213);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  
+}
+
+ul li a:hover {
+  background-color: #2e2323a9;
+}
+
 .blog {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 25px;
   background-color: rgb(128, 103, 103);
+  min-height: 100vh; /* Add this line */
+  width: 100%; 
 }
 
+
 .maincontainer {
-  background-color: rgb(252, 243, 233);
+  background-color: rgb(49, 40, 37);
   /* width: 800px; */
   width: min(2000px, 85%);
   /* height:1500px; */
-  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: auto;
+ 
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -20,8 +68,115 @@
   align-items: center;
   gap: 15px;
   overflow: hidden;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  
+  margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
   font-size: var(--step-0);
-  box-shadow: 0px 10px 40px 30px rgba(39, 22, 21, 0.534)
+  box-shadow: 0px 0px 20px 10px rgba(39, 22, 21, 0.363)
+}
+
+.blogintro{
+  color: antiquewhite;
+  font-size: 60px;
+  font-weight: 700;
+  background-color: rgba(27, 17, 14, 0.993);
+  padding: 30px;
+  border-radius: 90px;
+}
+
+.blogabout{
+  color: antiquewhite;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.blogscrollcontainer{
+  display: flex;
+  height: auto;
+  width: min(1400px, 100%);
+  overflow: auto;
+  overflow-x: hidden;
+  flex-direction: column-reverse;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(109, 85, 79, 0.164);
+}
+
+.blogentry{
+  height: max-content;
+  width: min(1200px, 100%);
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(255, 234, 211);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  white-space: wrap;
+  align-items: center;
+  
+  overflow: auto;
+  margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+  font-size: var(--step-0);
+
+  
+}
+
+h1{
+  color: rgb(92, 57, 53);
+}
+
+p{
+  
+}
+.entrydate{
+  color: rgba(0, 0, 0, 0.61);
+  margin-top: -20px;
+  font-size: 25px;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+/* Mobile Optimization Styles */
+@media (max-width: 600px) {
+  /* Give the main container more room by dropping its padding from 40px to 15px */
+  .maincontainer {
+    width: 92%; /* Slightly wider to maximize screen usage */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Strip down container paddings so text stretches gracefully */
+  .blogscrollcontainer {
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* Let the cards expand fluidly while keeping text fully readable */
+  .blogentry {
+    width: 100%;
+    height: auto; /* Let text determine height naturally so it doesn't get cut off */
+    padding: 20px 15px;
+  }
+
+  /* Make sure the text font size fits mobile screens cleanly */
+  .entrydate {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+}
+/* Mobile Optimization */
+@media (max-width: 600px) {
+  ul {
+    font-size: 14px; /* Shrinks the text slightly so items fit */
+  }
+  
+  ul li a {
+    padding: 10px 8px; /* Rededuces excessive horizontal padding */
+  }
 }

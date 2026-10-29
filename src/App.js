@@ -15,9 +15,7 @@ function App() {
   return (
     <div>
       <div className="App">
-        <div className="banner">
-          <div className="bannertext">Welcome to my Garden</div>
-        </div>
+        {" "}
         <ul>
           <li>
             <a href="https://www.youtube.com/@shinyprowl/videos">Youtube</a>
@@ -40,6 +38,9 @@ function App() {
             <Link to="/blog">Blog</Link>
           </li>
         </ul>
+        <div className="banner">
+          <div className="bannertext">Welcome to my Garden</div>
+        </div>
         <div className="round">
           <br />
 
