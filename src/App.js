@@ -1,5 +1,7 @@
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
+import blog from ".//blog.js";
 import video from "./Assets/april-video.mp4";
 import snowy from "./Assets/snowy.mp4";
 import jitters from "./Assets/jitters.mp4";
@@ -36,6 +38,12 @@ function App() {
           </li>
           <li>
             <a href="https://vgen.co/Shinyprowl">Commissions</a>
+          </li>
+          <li>
+            <Link to="/blog">
+              <blog />
+              Blog
+            </Link>
           </li>
         </ul>
         <div className="round">

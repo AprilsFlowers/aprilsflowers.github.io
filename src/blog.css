@@ -1,0 +1,30 @@
+.blog {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-color: rgb(128, 103, 103);
+}
+
+
+
+
+.maincontainer {
+  background-color: rgb(252, 243, 233);
+  /* width: 800px; */
+  width: min(2000px, 85%);
+  /* height:1500px; */
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  white-space: wrap;
+  align-items: center;
+  gap: 15px;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: var(--step-0);
+  box-shadow: 0px 10px 40px 30px rgba(39, 22, 21, 0.534)
+}
