@@ -19,7 +19,7 @@ function blog() {
         </li>
         <li>
           <a href="https://vgen.co/Shinyprowl">Commissions</a>
-        </li>
+        </li> 
         <li>
           <Link to="/">Home</Link>
         </li>
