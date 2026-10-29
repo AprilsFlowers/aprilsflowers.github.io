@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import Footer from './components/Footer.js';
 import App from './App'; // This targets your original website layout file
-import Blog from "./pages/blog.js";
+import Blog from "./pages/Blog.js";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
