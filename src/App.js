@@ -1,15 +1,15 @@
 import "./styles/App.css";
 import { Link } from "react-router-dom";
-import video from "./Assets/april-video.mp4";
-import snowy from "./Assets/snowy.mp4";
-import jitters from "./Assets/jitters.mp4";
-import aprilshowcase from "./Assets/aprilshowcase.mp4";
-import blossom from "./Assets/blossom.mp4";
-import mystic from "./Assets/mystic.mp4";
-import yui from "./Assets/yui.mp4";
-import shinyicon from "./Assets/shinyicon.png";
-import mayicon from "./Assets/mayicon.png";
-import apriliconweb from "./Assets/apriliconweb.webp";
+import video from "./assets/april-video.mp4";
+import snowy from "./assets/snowy.mp4";
+import jitters from "./assets/jitters.mp4";
+import aprilshowcase from "./assets/aprilshowcase.mp4";
+import blossom from "./assets/blossom.mp4";
+import mystic from "./assets/mystic.mp4";
+import yui from "./assets/yui.mp4";
+import shinyicon from "./assets/shinyicon.png";
+import mayicon from "./assets/mayicon.png";
+import apriliconweb from "./assets/apriliconweb.webp";
 
 function App() {
   return (

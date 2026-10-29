@@ -7,7 +7,6 @@
   background-color: rgb(128, 103, 103);
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,8 +45,8 @@
 .banner {
   display: flex;
   justify-content: center;
-  align-items: center; 
-  background-image: url(../Assets/collagebannerdarkened.webp);
+  align-items: center;
+  background-image: url(../assets/collagebannerdarkened.webp);
   background-repeat: no-repeat;
   width: 100%;
   height: 350px;
@@ -55,31 +54,31 @@
   box-shadow: 0 10px 15px rgba(39, 22, 21, 0.534);
 }
 
-.bannertext{
+.bannertext {
   padding: 20px;
-  color: rgb(255, 255, 255);                     
-  font-size: 90px;                
+  color: rgb(255, 255, 255);
+  font-size: 90px;
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
-  
-  font-family: 'Playwrite IT Trad', cursive;
+
+  font-family: "Playwrite IT Trad", cursive;
 }
 @media screen and (max-width: 768px) {
   .banner {
-    height: 170px;            
+    height: 170px;
   }
 
   .bannertext {
-    font-size: 40px;          
-    white-space: normal;      
+    font-size: 40px;
+    white-space: normal;
     padding: 10px;
   }
 }
 
 ul {
   list-style-type: none;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0;
@@ -93,7 +92,6 @@ ul {
 
 ul li {
   justify-content: center;
-  
 }
 
 ul li a {
@@ -103,14 +101,11 @@ ul li a {
   padding: 14px;
   text-decoration: none;
   border-radius: 100px;
-  
 }
 
 ul li a:hover {
   background-color: #4b6e59a9;
 }
-
-
 
 .box {
   background-color: #d3cc89;
@@ -147,10 +142,10 @@ ul li a:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: var(--step-0);
-  box-shadow: 0px 10px 40px 30px rgba(39, 22, 21, 0.534)
+  box-shadow: 0px 10px 40px 30px rgba(39, 22, 21, 0.534);
 }
 
-.greeting{
+.greeting {
   font-size: 25px;
   font-weight: 100;
   padding: 0;
@@ -158,14 +153,12 @@ ul li a:hover {
   background-color: #ff644900;
 }
 
-.pronouns{
+.pronouns {
   font-size: 20px;
   font-weight: 50;
   margin-top: -15px;
   color: #495248;
   background-color: #ff9d4c00;
-  
-
 }
 
 .lit {
@@ -178,18 +171,17 @@ ul li a:hover {
 }
 
 .aprilwave {
-  background-image: url(../Assets/waveicon.webp);
+  background-image: url(../assets/waveicon.webp);
   width: 250px;
   height: 250px;
   border-radius: 100%;
   background-size: cover;
 }
 
-
 /* Container handles placement and hides text sliding out to the sides */
 .quotes-wrapper {
   position: relative;
-  height: 100px;      /* Adjust this height to match your font size */
+  height: 100px; /* Adjust this height to match your font size */
   width: 600px;
   overflow: hidden;
   align-items: center;
@@ -201,11 +193,11 @@ ul li a:hover {
 .quotesbox {
   position: absolute;
   top: 0;
-  
+
   /* 1. CRUCIAL DEFAULT VALUES: Tells the browser where the elements live by default before animating */
-  left: 120%;        
+  left: 120%;
   transform: translateX(0%);
-  opacity: 0;        
+  opacity: 0;
 
   background-color: #7ac08f;
   border-radius: 20px;
@@ -221,7 +213,8 @@ ul li a:hover {
     This acts as 'backwards' + 'forwards' fill mode, forcing the 0% keyframe properties 
     to be applied to the quote boxes immediately on page load while they wait for their delay timer.
   */
-  animation: rotateQuotes calc(10s * var(--total-quotes, 5)) both infinite ease-in-out;
+  animation: rotateQuotes calc(10s * var(--total-quotes, 5)) both infinite
+    ease-in-out;
   animation-delay: var(--delay, 0s);
 }
 
@@ -231,39 +224,39 @@ ul li a:hover {
     transform: translateX(0%);
     opacity: 0;
   }
-  
+
   /* ─── NEW FADE-IN TIMING ─── */
   /* Keep it completely invisible until it has crossed inside the container border */
   1.5% {
     opacity: 0;
   }
-  
+
   /* Slide In smoothly to the center and finish becoming solid */
   3% {
     left: 50%;
     transform: translateX(-50%);
     opacity: 1;
   }
-  
+
   /* Hold perfectly still in the dead center for reading */
   17% {
     left: 50%;
     transform: translateX(-50%);
     opacity: 1;
   }
-  
+
   /* As it begins sliding left, drop the opacity to 0 very quickly */
   18.5% {
     opacity: 0;
   }
-  
+
   /* Arrive completely hidden off the left edge at the normal 20% mark */
   20% {
     left: -20%;
     transform: translateX(-100%);
     opacity: 0;
   }
-  
+
   /* Stay completely hidden while other quotes display */
   100% {
     left: -20%;
@@ -272,14 +265,8 @@ ul li a:hover {
   }
 }
 
-
-
-
-
-
-
-.aboutbar{
-    color: #ffffff;
+.aboutbar {
+  color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
   background-color: #6db177;
@@ -287,32 +274,28 @@ ul li a:hover {
   width: 250px;
   height: auto;
   text-align: center;
-margin: 0 auto;
-margin-bottom: 5px;
-margin-top: 5px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
 
-transition: transform 0.2s ease-in-out;
-
+  transition: transform 0.2s ease-in-out;
 }
 .aboutbar:hover {
   transform: scale(1.1);
-  transform: rotateZ(3deg),;
+  transform: rotateZ(3deg);
   background-color: #68aa74;
-  
 }
 
-
-
-.bio{
+.bio {
   font-weight: 100;
   margin-bottom: 0px;
   background-color: #b3ffc000;
   overflow: hidden;
   border-style: dotted;
   border-width: 3px;
-border-color: #a2ada100;
-border-radius: 10px;
-padding: 10px;
+  border-color: #a2ada100;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .abouttext {
@@ -320,10 +303,10 @@ padding: 10px;
   margin-bottom: 0px;
   background-color: #f0ff6c00;
   max-width: 100%;
-
 }
 
-.charactersbar{color: #ffffff;
+.charactersbar {
+  color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
   background-color: #c5a79a;
@@ -331,11 +314,8 @@ padding: 10px;
   width: 250px;
   height: auto;
   text-align: center;
-  
-  
-margin: 0 auto;
 
-
+  margin: 0 auto;
 }
 .characterscontainer {
   background-color: #ff7ec700;
@@ -344,7 +324,6 @@ margin: 0 auto;
   border-radius: 70px;
   border-color: #ff88ac00;
   padding-bottom: 20px;
-  
 }
 .characterstext {
   color: white;
@@ -353,12 +332,12 @@ margin: 0 auto;
 
 .charactersbox {
   display: flex;
-  justify-content: center;  
-  align-items: flex-start;  /* 🚀 KEEP THEM ALL LOCKED TO THE TOP LINE */
+  justify-content: center;
+  align-items: flex-start; /* 🚀 KEEP THEM ALL LOCKED TO THE TOP LINE */
   flex-direction: row;
-  flex-wrap: nowrap;     
-  width: 100%;           
-  column-gap: 15px;         /* Match your current mobile gap preference */
+  flex-wrap: nowrap;
+  width: 100%;
+  column-gap: 15px; /* Match your current mobile gap preference */
   background-color: #adcee000;
   box-sizing: border-box;
 }
@@ -368,72 +347,71 @@ margin: 0 auto;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  flex: 1 1 30%;         
-  max-width: 180px;      
-  padding: 10px;         
+  flex: 1 1 30%;
+  max-width: 180px;
+  padding: 10px;
   transition: transform 0.5s ease-in-out;
   box-sizing: border-box;
 }
 
-
 .characterbubble img {
-  width: 100%;           /* Scales smoothly with the parent bubble width */
-  height: auto;          /* 🚀 KEEPS YOUR ART RATIO PERFECT WITHOUT DISTORTION */
+  width: 100%; /* Scales smoothly with the parent bubble width */
+  height: auto; /* 🚀 KEEPS YOUR ART RATIO PERFECT WITHOUT DISTORTION */
   display: block;
 }
 
 .characterbubble:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 /* 1. HIDE THE DESCRIPTION BOX BY DEFAULT */
 .description {
-  
-  opacity: 0;                         
-  visibility: hidden;                 
-  max-height: 0;            /* Hides its layout height by default */
-  overflow: hidden;         /* Keeps text invisible while height is zero */
-  
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0; /* Hides its layout height by default */
+  overflow: hidden; /* Keeps text invisible while height is zero */
+
   /* Smooth transition for both visibility and layout height scaling */
-  transition: opacity 0.3s ease, max-height 0.3s ease, visibility 0.3s ease, margin-top 0.3s ease; 
-  
+  transition:
+    opacity 0.3s ease,
+    max-height 0.3s ease,
+    visibility 0.3s ease,
+    margin-top 0.3s ease;
+
   /* Styling details */
   margin-top: 0px;
   font-size: 17px;
-  color: #555;                        
+  color: #555;
   text-align: center;
 }
 
 /* 3. REVEAL THE HEIGHT AND TEXT ORGANICALLY ON HOVER */
 .characterbubble:hover .description {
-  opacity: 1;                         
-  visibility: visible;                
-  margin-top: 12px;         /* Adds clean separation under the name pill on hover */
-  max-height: 350px;        /* 🚀 OPENS UP NATURAL ROOM TO PUSH THE BOTTOM IMAGES DOWN */
+  opacity: 1;
+  visibility: visible;
+  margin-top: 12px; /* Adds clean separation under the name pill on hover */
+  max-height: 350px; /* 🚀 OPENS UP NATURAL ROOM TO PUSH THE BOTTOM IMAGES DOWN */
 }
-
 
 /* 4. UPDATE THE HOVER MIX FOR ABSOLUTE POSITIONING */
 .characterbubble:hover .description {
-  opacity: 1;                         
-  visibility: visible;                
+  opacity: 1;
+  visibility: visible;
   transform: translateX(-50%) translateY(5px); /* 🚀 SLIDES DOWN GENTLY ON HOVER WITH HORIZONTAL CENTERING */
 }
 
-
 /* 2. REVEAL IT SMOOTHLY WHEN THE CHARACTER BUBBLE IS HOVERED */
 .characterbubble:hover .description {
-  opacity: 1;                         /* Fades in smoothly */
-  visibility: visible;                /* Makes it interactive */
-  transform: translateY(0);           /* Gently slides down to its final spot */
+  opacity: 1; /* Fades in smoothly */
+  visibility: visible; /* Makes it interactive */
+  transform: translateY(0); /* Gently slides down to its final spot */
 }
 
-
-.aprilname{
+.aprilname {
   display: flex;
-  justify-content: center;  /* Centers the text inside the tag */
+  justify-content: center; /* Centers the text inside the tag */
   align-items: center;
-  margin-top: 10px;         /* Adds a clean gap below the image */
+  margin-top: 10px; /* Adds a clean gap below the image */
   background-color: #53df82;
   color: #155e24;
   border-radius: 90px;
@@ -441,11 +419,11 @@ margin: 0 auto;
   width: fit-content;
   padding: 10px 20px;
 }
-.mayname{
+.mayname {
   display: flex;
-  justify-content: center;  /* Centers the text inside the tag */
+  justify-content: center; /* Centers the text inside the tag */
   align-items: center;
-  margin-top: 10px;         /* Adds a clean gap below the image */
+  margin-top: 10px; /* Adds a clean gap below the image */
   background-color: #fafc91;
   color: #8b6e1d;
   border-radius: 90px;
@@ -453,11 +431,11 @@ margin: 0 auto;
   width: fit-content;
   padding: 10px 20px;
 }
-.shinyname{
+.shinyname {
   display: flex;
-  justify-content: center;  /* Centers the text inside the tag */
+  justify-content: center; /* Centers the text inside the tag */
   align-items: center;
-  margin-top: 10px;         /* Adds a clean gap below the image */
+  margin-top: 10px; /* Adds a clean gap below the image */
   background-color: #ffa7d3;
   color: #8f2a54;
   border-radius: 90px;
@@ -466,9 +444,8 @@ margin: 0 auto;
   padding: 10px 20px;
 }
 
-
-.traitsboxscroll{
-overflow-y: auto;
+.traitsboxscroll {
+  overflow-y: auto;
 }
 
 .traitsbox {
@@ -476,40 +453,35 @@ overflow-y: auto;
   align-self: center;
   flex-direction: column;
   overflow: hidden;
-  
+
   overflow: clip/hidden;
   overflow-anchor: none;
-  
 
   background-color: #ffffff9f;
   border: #eec485;
   border-width: 2px;
   border-style: dashed;
   border-radius: 90px;
-  
-max-width: 800px;
-max-height: 300px;
+
+  max-width: 800px;
+  max-height: 300px;
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 20px;
   padding-top: 20px;
 
-
-  -ms-overflow-style: none; 
-
+  -ms-overflow-style: none;
 
   @media (max-width: 485px) {
-  .traitbubblesrow {
-    max-height: 400px;    /* Limits the height so it doesn't crop off-screen */
-    overflow-y: auto;     /* Adds the vertical scrollbar when content overflows */
-    padding-bottom: 10px; /* Gives a little breathing room at the bottom */
-    overflow-x: hidden;
+    .traitbubblesrow {
+      max-height: 400px; /* Limits the height so it doesn't crop off-screen */
+      overflow-y: auto; /* Adds the vertical scrollbar when content overflows */
+      padding-bottom: 10px; /* Gives a little breathing room at the bottom */
+      overflow-x: hidden;
+    }
   }
 }
-  
-}
-
 
 .traitstext {
   color: #ffffff;
@@ -521,10 +493,9 @@ max-height: 300px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 100%;       
-  max-width: 250px;   
-  
-  
+  width: 100%;
+  max-width: 250px;
+
   /* Setting the anchor point to the exact center for a perfect see-saw balance */
   transform-origin: center center;
 
@@ -534,29 +505,32 @@ max-height: 300px;
 
 /* 1. Define the gentle rocking timeline */
 @keyframes seesaw-rocking {
-  0%, 100% { rotate: z -3deg; }
-  50%      { rotate: z 3deg; }
+  0%,
+  100% {
+    rotate: z -3deg;
+  }
+  50% {
+    rotate: z 3deg;
+  }
 }
 .traitstext:hover {
   scale: 1.1; /* Smoothly pops up on hover */
-  
+
   /* 2. Overrides the static layout and runs the infinite see-saw */
   animation: seesaw-rocking 1.2s ease-in-out infinite;
 }
-.traitbubblesrow{
+.traitbubblesrow {
   align-self: stretch;
-  display:flex;
+  display: flex;
   box-sizing: border-box;
   flex-direction: row;
-  
+
   flex-wrap: wrap;
   width: 100%;
   gap: 10px;
   justify-content: center;
-  
-  
 }
-  .traitsbubbles {
+.traitsbubbles {
   font-size: 20px;
   background-color: #ffffff;
   border: solid 3px;
@@ -566,15 +540,13 @@ max-height: 300px;
   height: fit-content;
   padding: 5px 25px;
   overflow: hidden;
-  transition: transform 0.2s ease-in-out; 
+  transition: transform 0.2s ease-in-out;
 }
 .traitsbubbles:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
-
-
-  .aprilvideo{
+.aprilvideo {
   max-width: 90%;
 
   /* padding-top: 30px; */
@@ -582,14 +554,13 @@ max-height: 300px;
   margin-top: 20px;
   margin-bottom: 30px;
   border-radius: 30px;
-  overflow:hidden;
+  overflow: hidden;
   object-fit: cover;
   align-content: center;
-  
 }
 
-.favsbar{
-    color: #ffffff;
+.favsbar {
+  color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
   background-color: #ffb3dd;
@@ -597,40 +568,37 @@ max-height: 300px;
   width: 250px;
   height: auto;
   text-align: center;
-margin: 0 auto;
-margin-bottom: 20px;
-
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-.favourites{
-background-color: #fff3f8;
+.favourites {
+  background-color: #fff3f8;
 
   text-align: left;
   overflow: auto;
   width: 1000px;
   max-width: 90%;
-font-weight: 100;
+  font-weight: 100;
 
-  border-left: 6px solid #ffb3dd; 
-  
+  border-left: 6px solid #ffb3dd;
 
-  padding-left: 20px;  
+  padding-left: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
 
-  border-radius: 2px;            
-  
-  margin-left: 10px;         
+  border-radius: 2px;
 
+  margin-left: 10px;
 }
 
-.spotifylink{
-  color: #1DB954;
+.spotifylink {
+  color: #1db954;
 }
 
 hr {
   border: none;
-  height: 1px;  
+  height: 1px;
   background: #42343431;
   max-width: 700px;
 }
@@ -638,16 +606,16 @@ hr {
 .live2dvideobanner {
   position: relative; /* Essential: keeps overlays contained inside this box */
   width: 100%;
-  height: 200px;      /* Set your desired banner height */
-  overflow: hidden;   /* Keeps video from spilling out */
-  box-shadow: 0 10px 15px rgba(34, 36, 68, 0.534)
+  height: 200px; /* Set your desired banner height */
+  overflow: hidden; /* Keeps video from spilling out */
+  box-shadow: 0 10px 15px rgba(34, 36, 68, 0.534);
 }
 
 /* Ensure the video stretches to fill the banner perfectly */
 .live2dvideobanner video {
   width: 100%;
   height: 100%;
-  object-fit: cover;  /* Crops video smoothly like a background image */
+  object-fit: cover; /* Crops video smoothly like a background image */
   object-position: center 65%;
 }
 
@@ -659,8 +627,13 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.301); /* Black tint at 50% opacity. Increase 0.5 to make it darker */
-  z-index: 1;                     /* Sits directly on top of the video */
+  background: rgba(
+    0,
+    0,
+    0,
+    0.301
+  ); /* Black tint at 50% opacity. Increase 0.5 to make it darker */
+  z-index: 1; /* Sits directly on top of the video */
 }
 
 /* 3. Text overlay styled and centered */
@@ -669,13 +642,16 @@ hr {
   top: 50%;
   left: 50%;
   padding: 20px;
-  transform: translate(-50%, -50%); /* Perfectly centers the text horizontally & vertically */
-  color: white;                     /* Makes text readable over the dark tint */
-  font-size: 100px;                /* Adjust size as needed */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Perfectly centers the text horizontally & vertically */
+  color: white; /* Makes text readable over the dark tint */
+  font-size: 100px; /* Adjust size as needed */
   font-weight: bold;
-  z-index: 2;                       /* Higher than the tint overlay so it stays on top */
+  z-index: 2; /* Higher than the tint overlay so it stays on top */
   text-align: center;
-  white-space: nowrap;              /* Prevents text from breaking into single letters like your image */
+  white-space: nowrap; /* Prevents text from breaking into single letters like your image */
 }
 @media (max-width: 768px) {
   .live2dbannertext {
@@ -683,7 +659,7 @@ hr {
   }
 }
 
-.live2dbar{
+.live2dbar {
   color: #ffffff;
   font-size: 30px;
   font-weight: 600px;
@@ -692,28 +668,24 @@ hr {
   width: 250px;
   height: auto;
   text-align: center;
-margin: 0 auto;
-  
+  margin: 0 auto;
 }
 
-.live2dheader{
+.live2dheader {
   font-size: 25px;
   color: #6b6b6b;
   padding-bottom: 5px;
-  text-decoration: none
-  
-
+  text-decoration: none;
 }
 
 .live2dcubism a {
   color: #ff7d41 !important;
-  
 }
 .live2dcubism a :visited {
   color: #ff7d41 !important;
 }
 
-.video-container{
+.video-container {
   display: flex;
   flex-shrink: 0;
   justify-content: flex-start;
@@ -723,8 +695,7 @@ margin: 0 auto;
   overflow-y: hidden;
   gap: 10px;
   background-color: #318b2500;
-padding-bottom: 5px;
-
+  padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {
@@ -734,8 +705,7 @@ padding-bottom: 5px;
   }
 }
 
-.showcase{
-
+.showcase {
   width: 100%;
   min-width: 500px;
   min-height: 90%;
@@ -745,14 +715,11 @@ padding-bottom: 5px;
   margin-top: 20px;
   margin-bottom: 30px;
   border-radius: 5px;
-  overflow:auto;
+  overflow: auto;
   object-fit: cover;
-
-  
 }
 
-
-.live2dcontainer{
+.live2dcontainer {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -762,13 +729,11 @@ padding-bottom: 5px;
   border-radius: 50px;
   height: 500px;
   width: 700px;
-  
 }
 
-
-.commissioninfo{
+.commissioninfo {
   display: flex;
-  margin:auto;
+  margin: auto;
   justify-content: center;
   align-self: center;
   padding: 10px;
@@ -776,20 +741,17 @@ padding-bottom: 5px;
   background-color: rgba(92, 64, 64, 0.507);
   width: fit-content;
   color: #201413;
-  
-  
 }
 
-.vgen{
+.vgen {
   color: #f6f7f6;
   margin-left: 2px;
 }
-.youtube{
-  color:#3c97cc
-  
+.youtube {
+  color: #3c97cc;
 }
 
-.linkbox{
+.linkbox {
   color: #446448;
   font-size: 30px;
   font-weight: 600px;
@@ -800,11 +762,7 @@ padding-bottom: 5px;
   text-align: center;
   margin: 0 auto;
   padding: 10px;
-
-
 }
-
-
 
 .thank {
   color: rgb(112, 113, 114);
@@ -836,7 +794,7 @@ padding-bottom: 5px;
 }
 
 .image {
-  background-image: url(../Assets/waa.webp);
+  background-image: url(../assets/waa.webp);
   width: 300px;
   aspect-ratio: 1668/2000;
   background-size: cover;
@@ -848,17 +806,15 @@ padding-bottom: 5px;
   color: rgb(31, 75, 53);
 }
 
-
-footer{
+footer {
   background-color: #5f4545;
   padding: 5px;
   text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fcfbfb4d;
 }
-
 
 :root {
   --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
