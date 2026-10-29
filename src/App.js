@@ -1,7 +1,5 @@
-import "./App.css";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import "./styles/App.css";
 import { Link } from "react-router-dom";
-import blog from ".//blog.js";
 import video from "./Assets/april-video.mp4";
 import snowy from "./Assets/snowy.mp4";
 import jitters from "./Assets/jitters.mp4";
@@ -12,11 +10,10 @@ import yui from "./Assets/yui.mp4";
 import shinyicon from "./Assets/shinyicon.png";
 import mayicon from "./Assets/mayicon.png";
 import apriliconweb from "./Assets/apriliconweb.webp";
-import collagebannerdarkened from "./Assets/collagebannerdarkened.webp";
 
 function App() {
   return (
-    <Router>
+    <div>
       <div className="App">
         <div className="banner">
           <div className="bannertext">Welcome to my Garden</div>
@@ -40,10 +37,7 @@ function App() {
             <a href="https://vgen.co/Shinyprowl">Commissions</a>
           </li>
           <li>
-            <Link to="/blog">
-              <blog />
-              Blog
-            </Link>
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
         <div className="round">
@@ -348,9 +342,9 @@ function App() {
               <div className="live2dbannertext">Live 2D</div>
             </div>
             {/* <div className="live2dbar">
-              <strong>Live2D</strong>
-            </div>
-            <br /> */}
+                <strong>Live2D</strong>
+              </div>
+              <br /> */}
             <br />
             <div className="live2dheader">
               <strong>What is Live2D?</strong>
@@ -506,11 +500,7 @@ function App() {
           <div className="image"></div>
         </div>
       </div>
-
-      <footer>
-        <p>© 2026 April</p>
-      </footer>
-    </Router>
+    </div>
   );
 }
 
