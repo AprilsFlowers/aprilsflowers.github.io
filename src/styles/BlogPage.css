@@ -39,6 +39,17 @@ ul li a:hover {
   background-color: #2e2323a9;
 }
 
+.aprilpeekimage {
+  background-image: url(../assets/aprilpeek.webp);
+  width: 500px;
+  height: 410px;
+  
+  background-size: cover;
+  margin-bottom: -40px;
+  position: relative; /* Brings the element into a positioning context */
+  z-index: 10;        /* Forces it to sit on top of the container below */
+}
+
 .blog {
   text-align: center;
   display: flex;
@@ -79,11 +90,13 @@ margin-bottom: 30px;
 
 .blogintro{
   color: antiquewhite;
-  font-size: 60px;
+  font-size: 90px;
   font-weight: 700;
-  background-color: rgba(27, 17, 14, 0.993);
-  padding: 30px;
+  background-color: rgba(27, 17, 14, 0);
+  padding: 0px;
   border-radius: 90px;
+  font-family: "Mali", cursive;
+  
 }
 
 .blogabout{
@@ -139,6 +152,17 @@ h1{
   font-family: "Edu SA Beginner", cursive;
 }
 
+.endtext{
+  color: rgb(202, 166, 136);
+  font-size: 30px;
+  font-weight: 700;
+  background-color: rgba(27, 17, 14, 0);
+  padding: 0px;
+  border-radius: 90px;
+  font-family: "Mali", cursive;
+  
+}
+
 /* Mobile Optimization Styles */
 @media (max-width: 600px) {
   /* Give the main container more room by dropping its padding from 40px to 15px */
@@ -149,6 +173,17 @@ h1{
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+  .blogintro{
+  color: antiquewhite;
+  font-size: 40px;
+  font-weight: 700;
+  background-color: rgba(27, 17, 14, 0);
+  padding: 0px;
+  border-radius: 90px;
+  font-family: "Mali", cursive;
+  
+}
 
   /* Strip down container paddings so text stretches gracefully */
   .blogscrollcontainer {

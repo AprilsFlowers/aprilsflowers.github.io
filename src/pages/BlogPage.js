@@ -24,15 +24,15 @@ function blog() {
           <Link to="/">Home</Link>
         </li>
       </ul>
+      <div className="banner"></div>
       <div className="maincontainer">
         <div className="blogintro">Welcome to my Blog!</div>
         <div className="blogabout">
           This is where I'll ramble to my hearts content!
-          <br />
-          It's not too flash at the moment, but it's functional.
-          <br /> I'll find time to give it a fresh coat of paint some other
-          time. For now, enjoy!
+          <br />I love to write and let any thoughts I have out, so this is
+          where I will store them!
         </div>
+        <div className="aprilpeekimage"></div>
         <div className="blogscrollcontainer">
           <div className="blogentry">
             <h1>My First Blog!</h1>
@@ -118,7 +118,32 @@ function blog() {
             <br />
             <br />
           </div>
+          <div className="blogentry">
+            <h1>Thanks Ves!</h1>
+            <br />
+            <div className="entrydate">30th of October, 2026</div>
+            <p>
+              This page has a little more personality now!
+              <br />
+              Thanks to Vesnea for surprising me with some adorable art for
+              April's Birthday!
+              <br />
+              <br />
+              This page still needs a lot of work but in about, so far, 2 weeks
+              since this project started? So much has been done!
+              <br />
+              Never did I ever expect to wake up and and go "wow I really want
+              to stare at a bunch of code all day".
+              <br />
+              But to watch this slowly come to life has been amazing, and it's
+              an awesome skill to learn!
+            </p>
+            <br />
+            <br />
+            <br />
+          </div>
         </div>
+        <div className="endtext">You've reached the end!</div>
       </div>
     </div>
   );

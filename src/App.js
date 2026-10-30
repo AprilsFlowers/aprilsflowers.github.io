@@ -10,6 +10,7 @@ import yui from "./assets/yui.mp4";
 import shinyicon from "./assets/shinyicon.png";
 import mayicon from "./assets/mayicon.png";
 import apriliconweb from "./assets/apriliconweb.webp";
+import aprilpeek from "./assets/aprilpeek.webp";
 
 function App() {
   return (
