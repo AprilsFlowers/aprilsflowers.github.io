@@ -179,10 +179,10 @@ ul li a:hover {
   background-size: cover;
 }
 
-/* Container handles placement and hides text sliding out to the sides */
+
 .quotes-wrapper {
   position: relative;
-  height: 100px; /* Adjust this height to match your font size */
+  height: 100px;
   width: 600px;
   overflow: hidden;
   align-items: center;
@@ -190,12 +190,12 @@ ul li a:hover {
   background-color: #27a4ca00;
 }
 
-/* Base styles for every single quote box */
+
 .quotesbox {
   position: absolute;
   top: 0;
 
-  /* 1. CRUCIAL DEFAULT VALUES: Tells the browser where the elements live by default before animating */
+  
   left: 120%;
   transform: translateX(0%);
   opacity: 0;
@@ -209,11 +209,7 @@ ul li a:hover {
   max-width: 90%;
   box-sizing: border-box;
 
-  /* 
-    2. ADDED 'both' to the animation shorthand. 
-    This acts as 'backwards' + 'forwards' fill mode, forcing the 0% keyframe properties 
-    to be applied to the quote boxes immediately on page load while they wait for their delay timer.
-  */
+  
   animation: rotateQuotes calc(10s * var(--total-quotes, 5)) both infinite
     ease-in-out;
   animation-delay: var(--delay, 0s);
@@ -226,8 +222,7 @@ ul li a:hover {
     opacity: 0;
   }
 
-  /* ─── NEW FADE-IN TIMING ─── */
-  /* Keep it completely invisible until it has crossed inside the container border */
+ 
   1.5% {
     opacity: 0;
   }
@@ -334,11 +329,11 @@ ul li a:hover {
 .charactersbox {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* 🚀 KEEP THEM ALL LOCKED TO THE TOP LINE */
+  align-items: flex-start; 
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100%;
-  column-gap: 15px; /* Match your current mobile gap preference */
+  column-gap: 15px; 
   background-color: #adcee000;
   box-sizing: border-box;
 }
@@ -356,8 +351,8 @@ ul li a:hover {
 }
 
 .characterbubble img {
-  width: 100%; /* Scales smoothly with the parent bubble width */
-  height: auto; /* 🚀 KEEPS YOUR ART RATIO PERFECT WITHOUT DISTORTION */
+  width: 100%; 
+  height: auto; 
   display: block;
 }
 
@@ -365,43 +360,43 @@ ul li a:hover {
   transform: scale(1.1);
 }
 
-/* 1. HIDE THE DESCRIPTION BOX BY DEFAULT */
+
 .description {
   opacity: 0;
   visibility: hidden;
-  max-height: 0; /* Hides its layout height by default */
-  overflow: hidden; /* Keeps text invisible while height is zero */
+  max-height: 0; 
+  overflow: hidden; 
 
-  /* Smooth transition for both visibility and layout height scaling */
+  
   transition:
     opacity 0.3s ease,
     max-height 0.3s ease,
     visibility 0.3s ease,
     margin-top 0.3s ease;
 
-  /* Styling details */
+  
   margin-top: 0px;
   font-size: 17px;
   color: #555;
   text-align: center;
 }
 
-/* 3. REVEAL THE HEIGHT AND TEXT ORGANICALLY ON HOVER */
+
 .characterbubble:hover .description {
   opacity: 1;
   visibility: visible;
-  margin-top: 12px; /* Adds clean separation under the name pill on hover */
-  max-height: 350px; /* 🚀 OPENS UP NATURAL ROOM TO PUSH THE BOTTOM IMAGES DOWN */
+  margin-top: 12px; 
+  max-height: 350px; 
 }
 
-/* 4. UPDATE THE HOVER MIX FOR ABSOLUTE POSITIONING */
+
 .characterbubble:hover .description {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(5px); /* 🚀 SLIDES DOWN GENTLY ON HOVER WITH HORIZONTAL CENTERING */
+  transform: translateX(-50%) translateY(5px); 
 }
 
-/* 2. REVEAL IT SMOOTHLY WHEN THE CHARACTER BUBBLE IS HOVERED */
+
 .characterbubble:hover .description {
   opacity: 1; /* Fades in smoothly */
   visibility: visible; /* Makes it interactive */

@@ -142,6 +142,73 @@ function blog() {
             <br />
             <br />
           </div>
+          <div className="blogentry">
+            <h1>Back from the Hospital!</h1>
+            <br />
+            <div className="entrydate">9th of November, 2026</div>
+            <p>
+              I am back home after a bit of the stay at the hospital now!
+              <br />
+              It turns out my worsening stomachaches after eating were the
+              results of my gallblader seemingly deciding it was time. I think
+              what happened is one of the stones it created got extremely stuck,
+              longer than usual, and caused great pain. Bile could not release,
+              and the organ got inflammed.
+              <br />
+              <br />
+              Usually my stomachaches after eating would last roughly 6+ hours.
+              But in the most recent case, even after going to the local
+              emergency department and getting treated, a minor stomachache was
+              still around and got worse until the next day, prompting me to
+              visit again. This time they did a CT scan and discovered the organ
+              had thickened walls, and my blood test showed elevated white blood
+              cells, so something was definitely up.
+              <br />
+              <br />
+              I spent quite a bit waiting to be sent to the bigger hospital for
+              surgery, but it took a while. And when I got to the bigger
+              hospital, it was quite busy, so I waited about a day and a half,
+              and slept in the waiting room alongside others. That wasn't super
+              comfy, but luckily nurses were caring and provided painkillers and
+              also kept me on IV, which helped.
+              <br />
+              <br />
+              The hospital visit itself was nice. Every nurse and doctor was
+              absolutely lovely, I had free Wi-fi and a TV! The food also wasn't
+              bad at all. I was looking very forward to my little spaghetti on a
+              bit of bread.
+              <br /> They also had sweet foods like rice pudding and custards,
+              which were real good too.
+              <br />
+              <br />
+              The worst part definitely was waking up after surgery. That felt
+              bad. Spongey sore throat, dizzy, had to breathe manually but
+              breathing hurt, which sucked. But luckily they had icey poles
+              which was refreshing. It took me a while to get my senses but I
+              was glad when I did.
+              <br />
+              My second least favourite part was when they had to try and find a
+              new vein to put a canula in. It was so tricky they had to call in
+              a doctor and use a machine to find one. Also the removal of a tube
+              in my gut. That didn't feel nice, but it was good to be attached
+              to one less thing.
+              <br />
+              <br />
+              All in all, I'm healing, no longer having horrible stomach pains,
+              sleeping well, and hoping soon the bruises heal and I can walk and
+              bend and such a bit better soon. Been spending most the day in bed
+              but try I to go out and do some shopping if I feel well!
+              <br />
+              <br />
+              Thank you to everyone who wished me well and kept me company
+              during that time!
+              <br /> I hope I can get back to drawing and working on comissions
+              very soon!
+            </p>
+            <br />
+            <br />
+            <br />
+          </div>
         </div>
         <div className="endtext">You've reached the end!</div>
       </div>

@@ -309,6 +309,7 @@ function App() {
                   <div className="traitsbubbles">🔎 Inquisitive</div>
                   <div className="traitsbubbles">👁️‍🗨️ Nuanced</div>
                   <div className="traitsbubbles">🐈 Cat-person</div>
+                  <div className="traitsbubbles">💪 Tummy Ache Survivor</div>
                   <div className="traitsbubbles">📸 Snapshotter</div>
 
                   <div className="traitsbubbles">👻 Camera-Shy</div>
